@@ -28,6 +28,7 @@ if not vim.loop.fs_stat(lazypath) then
   vim.fn.system({ "git", "clone", "--filter=blob:none", "https://github.com/folke/lazy.nvim.git", "--branch=stable", lazypath })
 end
 vim.opt.rtp:prepend(lazypath)
+vim.opt.clipboard = "unnamedplus"
 
 -- [5. ПЛАГИНЫ]
 require("lazy").setup({
@@ -41,53 +42,28 @@ require("lazy").setup({
     { "nvim-telescope/telescope.nvim", dependencies = { "nvim-lua/plenary.nvim" } },
     { "nvim-treesitter/nvim-treesitter", build = ":TSUpdate" },
 
-    -- УЛЬТРА-СТАБИЛЬНЫЙ LSP БЛОК (v2.0.0+ Ready)
+},     
+-- УЛЬТРА-СТАБИЛЬНЫЙ LSP БЛОК (Zero Bloat, Nvim 0.11+ Ready)
     {
         "neovim/nvim-lspconfig",
-        dependencies = { 
-            "williamboman/mason.nvim", 
-            "williamboman/mason-lspconfig.nvim",
-            "hrsh7th/cmp-nvim-lsp" 
-        },
+        -- REMOVED dependencies = { "hrsh7th/cmp-nvim-lsp" } entirely!
         config = function()
             if is_headless then return end
 
-            require("mason").setup()
-            local capabilities = require("cmp_nvim_lsp").default_capabilities()
+            -- 1. Configure the servers using the new built-in API natively
+            -- No third-party completion capabilities needed
+            vim.lsp.config("lua_ls", {})
+            vim.lsp.config("rust_analyzer", {})
 
-            require("mason-lspconfig").setup({ 
-                -- Убрали pyright, оставили только нужные сервера
-                ensure_installed = { "lua_ls", "ts_ls", "rust_analyzer" },
-                handlers = {
-                    function(server_name)
-                        require("lspconfig")[server_name].setup({
-                            capabilities = capabilities,
-                        })
-                    end,
-                }
-            })
+            -- 2. Explicitly enable them
+            vim.lsp.enable("lua_ls")
+            vim.lsp.enable("rust_analyzer")
         end
     },
-
-    -- Автодополнение
-    {
-        "hrsh7th/nvim-cmp",
-        dependencies = { "L3MON4D3/LuaSnip", "hrsh7th/cmp-nvim-lsp" },
-        config = function()
-            if is_headless then return end
-            local cmp = require("cmp")
-            cmp.setup({
-                snippet = { expand = function(args) require("luasnip").lsp_expand(args.body) end },
-                mapping = cmp.mapping.preset.insert({
-                    ["<C-Space>"] = cmp.mapping.complete(),
-                    ["<CR>"] = cmp.mapping.confirm({ select = true }),
-                }),
-                sources = cmp.config.sources({ { name = "nvim-lsp" } }),
-            })
-        end
-    },
+{
+    -- Прячем lazy-lock.json
+    lockfile = vim.fn.stdpath("data") .. "/lazy-lock.json",
 })
-
 -- [6. ГОРЯЧИЕ КЛАВИШИ]
 local map = vim.keymap.set
 
