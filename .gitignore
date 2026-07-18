@@ -1,2 +1,6 @@
 .zshenv.secrets
 dotfiles.log
+ohmyzsh
+.zcompdump
+dot_zcompdump
+*.zcompdump*
