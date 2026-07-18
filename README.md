@@ -17,7 +17,7 @@ A modular, automated dotfiles repository for an Arch Linux + Sway/Wayland setup.
    ```bash
    git clone https://github.com/deceptikon/zen-arch.git ~/.dotfiles
    cd ~/.dotfiles
-```
+   ```
 
     Run the interactive setup script:
 
