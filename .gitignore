@@ -4,3 +4,4 @@ ohmyzsh
 .zcompdump
 dot_zcompdump
 *.zcompdump*
+dot_config/zsh/.zcompdump

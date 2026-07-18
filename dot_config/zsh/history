@@ -7682,3 +7682,447 @@ yay -S smplayer-skins
 ranger
 checkupdates
 checkupdates
+vim .config/sway/config
+~/.config/sway/conf.d/apps
+vim ~/.config/sway/conf.d/apps
+git status
+git add .
+git commit -m "Iteration that already makes me sad, because I still see old picture"
+git push
+git status
+tail -f logs/sysmon.log
+iperf3 -c 127.0.0.1
+git add .
+git commit -m "lately arrived full redump of formatter"
+git push
+vim scripts/sysmon/formatter.sh
+vim scripts/sysmon/mapper.sh
+git diff
+git add .
+git commit -m "Grok did new mapper"
+git push
+iperf3 -c 127.0.0.1
+vim scripts/sysmon/mapper.sh
+git add .
+git commit --amend --no-verify
+git push
+git pull --no-ff
+vim scripts/sysmon/mapper.sh
+git add .
+git commit
+git push
+vim scripts/sysmon/mapper.sh
+grep -n 'Island_used_kb\|tx\.com_bytes\|esacOR' scripts/sysmon/mapper.sh
+vim scripts/sysmon/mapper.sh
+grep -n 'Island_used_kb\|tx\.com_bytes\|esacOR' scripts/sysmon/mapper.sh
+bash -n scripts/sysmon/mapper.sh
+collect.sh | mapper.sh | jq '{disk:.disk.dev, rs:.disk.read_speed, ws:.disk.write_speed, if:.net.iface, rx:.net.rx_speed, tx:.net.tx_speed, fan:.temp.fan1}'
+scripts/sysmon
+collect.sh | mapper.sh | jq '{disk:.disk.dev, rs:.disk.read_speed, ws:.disk.write_speed, if:.net.iface, rx:.net.rx_speed, tx:.net.tx_speed, fan:.temp.fan1}'
+./collect.sh
+./mapper.sh
+./collect.sh | ./mapper.sh | jq '{disk:.disk.dev, rs:.disk.read_speed, ws:.disk.write_speed, if:.net.iface, rx:.net.rx_speed, tx:.net.tx_speed, fan:.temp.fan1}'
+./collect.sh | ./mapper.sh | jq '{disk:.disk.dev, rs:.disk.read_speed, ws:.disk.write_speed, if:.net.iface, rx:.net.rx_speed, tx:.net.tx_speed, fan:.temp.fan1}'
+../../
+git status
+git add .
+git commit -m "mapper changed"
+git push
+cat /proc/diskstats
+lsblk
+ip route
+vim scripts/sysmon/mapper.sh
+git status
+vim scripts/sysmon/mapper.sh
+cat scripts/sysmon/poller.sh
+cat sysmon.env
+vim sysmon.env
+git add .
+git commit -m "sysmon added device names"
+git push
+vim scripts/sysmon/poller.sh
+vim scripts/sysmon/mapper.sh
+vim scripts/sysmon/mapper.sh
+vim scripts/sysmon/mapper.sh
+git diff
+git status
+git add .
+git commit -m "attempt to clean-rewrite"
+git push
+git status
+vim scripts/sysmon/mapper.sh
+git diff
+git add .
+git commit -m "inshallah ishtep ketet, buyursa"
+git push
+pkill -9 -x waybar; pkill -9 -f sysmon/poller\
+rm -f feeds/.state feeds/.poller.lock logs/sysmon-poller.pid\
+waybar-start.sh start\
+sleep 5\
+tail -n 5 logs/sysmon.log
+pkill -9 -x waybar; pkill -9 -f sysmon/poller\
+rm -f feeds/.state feeds/.poller.lock logs/sysmon-poller.pid\
+./scripts/waybar-start.sh start\
+sleep 5\
+tail -n 5 logs/sysmon.log
+dd if=/dev/zero of=/tmp/waybar_io_test bs=1M count=512 conv=fdatasync &
+dd if=/dev/zero of=/tmp/waybar_io_test bs=1M count=512 conv=fdatasync &
+grep ' nvme0n1 ' /proc/diskstats | awk '{print "rsect",$6,"wsect",$10}'
+sudo dd if=/path/to/bigfile of=/dev/null bs=1M count=512 iflag=direct status=progress
+grep ' nvme0n1 ' /proc/diskstats | awk '{print "rsect",$6,"wsect",$10}'
+sudo dd if=/home/lexx/.MODELS/Huihui-Qwen3.5-9B-abliterated.i1-Q6_K.gguf of=/dev/null bs=1M count=512 iflag=direct status=progress
+grep ' nvme0n1 ' /proc/diskstats | awk '{print "rsect",$6,"wsect",$10}'
+tail -n 3 logs/sysmon.log
+git log
+cd ~/.dotfiles
+ls
+cd waybar
+git status
+git log
+..
+tree -c ./
+tree -c -l 2 ./
+tree -c -l 1 ./
+tree -l 1 ./
+tree -l 2 ./
+tree --help | grep skip
+tree -l 2 -I 'ohmyzsh' ./
+tree -l 3 -I 'ohmyzsh' ./
+ls -lah ~/.config
+ls -lah ~/.config | grep .dotfi
+cat .zshenv\
+
+vim .zshenv.secrets
+./setup.sh
+./setup.sh check
+yay -S telegram-desktop
+./setup.sh check
+telegram-desktop
+ls -lah ~/.local/share
+ls -lah ~/.local/share/waybar
+ls -lah ~/.local/share/waybar/logs
+yay -S geany
+~/.config/waybar/scripts/waybar-start.sh stop\
+rm -rf ~/.config/waybar/logs/*\
+~/.config/waybar/scripts/waybar-start.sh start
+~/.config/waybar/scripts/waybar-start.sh stop
+rm -rf ~/.local/share/waybar/logs
+rm -rf ~/.config/waybar/logs
+git -C ~/.dotfiles rm -r --cached dot_config/waybar/logs
+./setup.sh check
+./setup.sh uninstall
+./setup.sh install
+git init
+git branch -m master
+git status
+git add .
+git submodule add git@github.com:deceptikon/waybar.git dot_config/waybar
+git submodule add git@github.com:deceptikon/waybar.git dot_config/waybar -f
+git submodule add -f git@github.com:deceptikon/waybar.git dot_config/waybar 
+git add .
+git commit -m "working first commit"
+git remote add origin git@github.com:deceptikon/zen-arch.git
+git push -u origin masteR
+git push -u origin master
+ls
+vim .gitignore
+rm dot_config/zsh/envs
+rm dot_config/zsh/.zcompdump
+rm dot_config/zsh/_____git.zsh
+git add .
+git commit -m "cleaning up secrets"
+git push -u origin master
+git rm dot_config/zsh/envs --cached
+git rm dot_config/zsh/envs --cache
+git rm dot_config/zsh/envs
+git status
+git rm dot_config/zsh/envs --force
+git rm --force dot_config/zsh/envs --force
+git rm --force dot_config/zsh/envs
+git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch dot_config/zsh/envs' --prune-empty --tag-name-filter cat -- --all
+git status
+git add .
+git commit -m "cleaning up secrets"
+git commit -a
+git push -u origin master
+vim README.md
+git add .
+cd dot_config/waybar
+git status
+git add .
+git commit -m "Enhanced waybar-start script"
+git push
+git branches
+git branch
+git status
+git checkout main
+git branch -m oldmain
+git push -u origin oldmain
+git checkout dev
+git checkout dev
+git branch -M main
+git push origin main --force
+cat .git/config 
+git branch --set-upstream-to=origin/main main
+git fetch --prune
+cat .git/config 
+vim .git/config 
+git statsu
+git status
+git push
+git log
+../../
+git status
+git add .
+git commit -m "Readme added"
+git push
+git statusy
+git status
+mkdir home_Media_wallpapers/
+./setup.sh install
+geany setup.sh
+./setup.sh install
+vim dot_config/sway/conf.d/io
+./setup.sh install
+dot_config/waybar
+git status
+../../
+git status
+git add .
+git commit -m "Added basic backgrounds"
+git push
+git pull
+git pull --rebase
+git push
+export
+export | grep OPENR
+git status
+wob
+dot_config/wob
+vim brightness.ini
+vim volume.ini
+cd ~/.dotfiles
+git add .
+git commit -m wob bar adjusted
+git status
+git commit -m "wob bar adjusted"
+git push
+mkdir dot_config/nvim
+vim dot_config/nvim/init.lua
+vim setup.sh
+git status
+./setup.sh install
+./setup.sh check
+sudo pacman -S neovim base-devel ripgrep fd unzip wget
+./setup.sh install
+vim setup.sh
+./setup.sh check
+./setup.sh install
+git add .
+nvim
+nvim
+git add .
+git commit -m "remove some unneeded nvim deps"
+git push
+git status
+stress-ng --cpu $(nproc) --cpu-method matrixprod --timeout 40S
+.config/waybar
+chmod +x scripts/sysmon/{collect,mapper,formatter,poller}.sh
+bash -n scripts/sysmon/*.sh
+scripts/sysmon/collect.sh | scripts/sysmon/mapper.sh | tee feeds/sysmon.json | jq .
+scripts/sysmon/collect.sh | scripts/sysmon/mapper.sh | tee feeds/sysmon.json| jq '.disk,.net'
+scripts/sysmon/collect.sh | scripts/sysmon/mapper.sh | tee feeds/sysmon.json | jq .\
+# secondshot for rates\
+sleep 2\
+scripts/sysmon/collect.sh | scripts/sysmon/mapper.sh | tee feeds/sysmon.json| jq '.disk,.net'\
+
+scripts/sysmon/formatter.sh < feeds/sysmon.json\
+jq . feeds/gpu.json feeds/ram.json feeds/ssd.json feeds/netfan.json\
+jq . feeds/compact-netfan.json\
+
+scripts/sysmon/poller.sh &
+scripts/sysmon/poller.sh   # should log already running
+git status
+git add -u
+git add sysmon.env
+git status
+git commit -m "Grok authored refactoring changes"
+git push
+git status
+rm collect.data
+rm current.data
+pgrep -af 'sysmon/poller' || echo 'NO POLLER'
+pkill -f 'sysmon/poller' 2>/dev/null || true
+rm -f ~/.config/waybar/feeds/.poller.lock
+CFG=~/.config/waybar
+$CFG/scripts/sysmon/collect.sh | $CFG/scripts/sysmon/mapper.sh | tee "$CFG/feeds/sysmon.json" | jq '{cpu:.cpu.avg,gpu:.gpu.busy_pct,wr:.disk.write_speed}'\
+sleep 2\
+$CFG/scripts/sysmon/collect.sh | $CFG/scripts/sysmon/mapper.sh | tee "$CFG/feeds/sysmon.json" | jq '{cpu:.cpu.avg,gpu:.gpu.busy_pct,wr:.disk.write_speed}'\
+
+$CFG/scripts/sysmon/formatter.sh < "$CFG/feeds/sysmon.json"\
+ls -la "$CFG/feeds"/{gpu,cpu,ram,ssd,netfan,compact-netfan}.json\
+
+watch -n1 'stat -c "%y %n" ~/.config/waybar/feeds/cpu.json ~/.config/waybar/feeds/sysmon.json'
+CFG="$HOME/.config/waybar"\
+pkill -f 'sysmon/poller' 2>/dev/null || true\
+rm -f "$CFG/feeds/.poller.lock"\
+mkdir -p "$CFG/logs" "$CFG/feeds"\
+\
+# prove pipeline moves\
+"$CFG/scripts/sysmon/collect.sh" \\
+  | "$CFG/scripts/sysmon/mapper.sh" \\
+  | tee "$CFG/feeds/sysmon.json" \\
+  | jq '{cpu:.cpu.avg, gpu:.gpu.busy_pct, wr:.disk.write_speed, rx:.net.rx_speed}'\
+\
+sleep 2\
+"$CFG/scripts/sysmon/collect.sh" \\
+  | "$CFG/scripts/sysmon/mapper.sh" \\
+  | tee "$CFG/feeds/sysmon.json" \\
+  | jq '{cpu:.cpu.avg, gpu:.gpu.busy_pct, wr:.disk.write_speed, rx:.net.rx_speed}'\
+\
+"$CFG/scripts/sysmon/formatter.sh" < "$CFG/feeds/sysmon.json"\
+ls -la "$CFG/feeds"/netfan.json "$CFG/feeds"/compact-netfan.json
+stat -c '%y %n' "$CFG/feeds/cpu.json"\
+# again after 3s â€ƒ´ mtime must move
+vim scripts/sysmon/poller.sh
+vim scripts/waybar-start.sh
+vim sysmon.env
+git add .
+git commit -m "Grok authored refactoring changes 2"
+git push
+vim scripts/sysmon/mapper.sh
+vim scripts/sysmon/formatter.sh
+CFG="$HOME/.config/waybar"
+bash -n $CFG/scripts/sysmon/mapper.sh && bash -n $CFG/scripts/sysmon/formatter.sh
+$CFG/scripts/sysmon/collect.sh | $CFG/scripts/sysmon/mapper.sh | tee $CFG/feeds/sysmon.json | jq '{cpu:.cpu.avg, up:.disk.used_pct, wr:.disk.write_speed, rx:.net.rx_speed, fan:.temp.fan1}'
+$CFG/scripts/sysmon/formatter.sh < $CFG/feeds/sysmon.json\
+jq -r .text $CFG/feeds/ssd.json 
+ls $CFG/feeds/netfan.json $CFG/feeds/compact-netfan.json\
+$CFG/scripts/waybar-start.sh poller-restart
+tail -f $CFG/logs/sysmon.log
+vim scripts/waybar-start.sh
+pkill -9 -x waybar 2>/dev/null || true
+pkill -9 -f 'sysmon/poller' 2>/dev/null || true
+rm -f ~/.config/waybar/feeds/.poller.lock ~/.config/waybar/logs/sysmon-poller.pid
+~/.config/waybar/scripts/waybar-start.sh start
+vim scripts/waybar-start.sh
+stress-ng --cpu $(nproc) --cpu-method matrixprod --timeout 40S
+free -h
+vim scripts/sysmon/formatter.sh
+tail -f $CFG/logs/sysmon.log
+vim scripts/sysmon/formatter.sh
+grep -n 'local .*=.*\$((.*' scripts/sysmon/formatter.sh
+vim scripts/sysmon/formatter.sh
+bash -n scripts/sysmon/formatter.sh
+grep -n 'local .*=.*\$((.*' scripts/sysmon/formatter.sh
+git add .
+git commit -m "Grok rfctring manual local changes"
+git push
+vim scripts/sysmon/formatter.sh
+git status
+git diff
+stress-ng --cpu $(nproc) --cpu-method matrixprod --timeout 40S
+stress-ng --vm 4 --vm-bytes 80% --timeout 1m
+nvtop
+stress-ng --hdd 2 --hdd-bytes 1G --timeout 60s
+stress-ng --io 4 --io-ops 50000 --timeout 2m
+iperf3 -s
+yay -S iperf3
+iperf3 -s
+iperf3 -s
+stress-ng --io 4 --io-ops 50000 --timeout 2m
+stress-ng --cpu $(nproc) --cpu-method matrixprod --timeout 40S
+tail -f $CFG/logs/sysmon.log
+tail -f $CFG/logs/sysmon.log
+stress-ng --cpu $(nproc) --cpu-method matrixprod --timeout 40S
+stress-ng --vm 4 --vm-bytes 80% --timeout 1m
+stress-ng --io 4 --io-ops 50000 --timeout 2m
+tail -f $CFG/logs/sysmon.log
+stress-ng --io 4 --io-ops 50000 --timeout 2m
+stress-ng --vm 4 --vm-bytes 80% --timeout 1m
+stress-ng --vm 4 --vm-bytes 80% --timeout 1m
+stress-ng --cpu $(nproc) --cpu-method matrixprod --timeout 40S
+stress-ng --io 4 --io-ops 50000 --timeout 2m
+stress-ng --io 4 --io-ops 50000 --timeout 2m
+journalctl -f
+cat ../sway/conf.d/apps
+cat ../sway/conf.d/services
+~/.dotfiles
+vim setup.sh
+./setup.sh
+chmod +x ./setup.sh
+vim setup.sh
+./setup.sh
+./setup.sh check
+sudo pacman -S yad network-manager-applet udiskie telegram-desktop galculator qt5ct
+vim .zshenv
+echo '.zshenv.secrets' > .gitignore
+vim ./setup.sh 
+./setup.sh check
+./setup.sh install
+./setup.sh install
+cat ./setup.sh
+git commit -m "Added NeoVim"
+git push
+git status
+nvim dot_config/nvim/init.lua
+rm dot_config/nvim/lazy-lock.json
+rm ~/.local/share/nvim -rf
+nvim
+rm ~/.local/share/nvim -rf
+nvim
+vim dot_config/nvim/init.lua
+rm ~/.local/share/nvim -rf
+nvim
+rm ~/.local/share/nvim -rf
+vim dot_config/nvim/init.lua
+bash scripts/sysmon/collect.sh | head -c 4000 > collect.data
+cat feeds/sysmon.json | jq . > current.data
+cat feeds/sysmon.json | jq . 
+git status
+git diff config-bottom
+yay -S less
+git diff config-bottom
+git add -u
+git commit -m "pre-refactoring commit"
+git push
+git status
+git push
+vim sysmon.env
+vim scripts/sysmon/collect.sh
+ls
+vim scripts/sysmon/mapper.sh
+vim scripts/sysmon/mapper.sh
+vim scripts/sysmon/formatter.sh
+vim scripts/sysmon/mapper.sh
+vim scripts/sysmon/formatter.sh
+vim scripts/sysmon/formatter.sh
+vim scripts/sysmon/poller.sh
+vim scripts/sysmon/poller.sh
+vim modules-sysmon.json
+checkupdates
+.config/waybar/scripts/utils/checkupdates.sh
+vim .config/waybar/scripts/utils/checkupdates.sh
+.config/waybar
+tree -c ./
+tree -c ./ -l 2
+tree
+tree --help
+tree -C -J -c ./ 
+tree -C -c ./ 
+tree --help
+tree -C -c -l 5./ 
+tree -C -c -l 5 ./ 
+yay -Quy
+yay -Quy
+.config/waybar/scripts/utils/checkupdates.sh
+.config/waybar/scripts/utils/checkupdates.sh
+.config/waybar/scripts/utils/checkupdates.sh
+.config/waybar/scripts/utils/checkupdates.sh
+.config/waybar/scripts/utils/checkupdates.sh
+tail /tmp/waybar_errors.log -f
+echo "" > /tmp/waybar_errors.log
+tail /tmp/waybar_errors.log -f
+ls /tmp
+echo "" > /tmp/waybar_errors.log
+tail /tmp/waybar_errors.log -f

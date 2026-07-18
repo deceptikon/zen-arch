@@ -5,7 +5,7 @@
 # set $bg bg #ff00ee solid_color
 $mybind $mod+Ctrl+w exec ~/.local/bin/sway-bg-shuffler
 exec --no-startup-id ~/.local/bin/sway-bg-shuffler
-set $bg bg "$(cat /tmp/bg 2>/dev/null || echo '~/Media/wallpapers/core/black-haired-girl.jpg')" fill
+set $bg bg "$(cat /tmp/bg 2>/dev/null || echo '../../..//Media/wallpapers/core/black-haired-girl.jpg')" fill
 
 output eDP-1 mode 2880x1800 scale 1.5 position 2560 0 $bg
 output HDMI-A-1 mode 2560x1440 position 0 0 $bg
