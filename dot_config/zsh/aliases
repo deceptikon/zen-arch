@@ -1,0 +1,44 @@
+#!/usr/bin/env zsh
+
+# Магия для sudo: пробел в конце заставляет sudo понимать твои алиасы
+alias sudo='sudo '
+
+# Система и пакеты
+alias yy="yay"
+alias ss="systemctl"
+alias sss="systemctl status"
+
+# Утилиты
+alias m="micro"
+##alias cat="bat --style=plain"
+
+alias lama="~/Q/ADLAI/scripts/run_inference.sh"
+alias vps="ssh root@adlai.local "
+
+# Скрипты
+alias gemini-stage="$HOME/.config/ai-stage.sh gemini"
+
+# Функция для локального ИИ-партнера
+ask() {
+    if [ -z "$1" ]; then
+        echo "Использование: ask 'твой вопрос'"
+        return 1
+    fi
+
+    echo -e "\n🤔 Партнер думает...\n"
+    
+    local RAW_JSON=$(curl -s -X POST http://127.0.0.1:8888/ask \
+        -H "Content-Type: application/json" \
+        -d "{\"query\": \"$1\"}")
+    
+    local ANSWER=$(echo "$RAW_JSON" | jq -r '.answer')
+    local SOURCES=$(echo "$RAW_JSON" | jq -r '.sources | join(", ")')
+    
+    echo -e "\033[1;32mПартнер:\033[0m\n$ANSWER\n"
+    echo -e "\033[1;34mИсточники:\033[0m $SOURCES\n"
+}
+
+# Waybar
+alias waybar-vert="waybar -c ~/.config/waybar/config-vertical -s ~/.config/waybar/style-new.css"
+alias anti="~/Antigravity-x64/antigravity "
+# alias vim="nvim "

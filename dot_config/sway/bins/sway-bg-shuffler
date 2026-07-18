@@ -1,0 +1,6 @@
+#!/bin/bash
+NEW_BG=$(find ~/Media/wallpapers -type f \( -name "*.jpg" -o -name "*.webp" -o -name "*.png" \) | shuf -n 1)
+echo $NEW_BG > /tmp/bg
+if [ -n "$NEW_BG" ]; then
+    swaymsg output "*" bg "$NEW_BG" fill
+fi

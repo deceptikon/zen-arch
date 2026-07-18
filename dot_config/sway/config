@@ -1,0 +1,19 @@
+# Variables
+set $mod Mod4
+set $left h
+set $down j
+set $up k
+set $right l
+
+set $term ghostty
+set $mybind bindsym --to-code
+set $swayr env RUST_BACKTRACE=1 swayr
+
+set $setlang swaymsg input type:keyboard xkb_switch_layout 0
+set $menu $setlang && rofi -show drun -modi drun,filebrowser,run,window
+
+font pango:TerminessTTF Nerd Font Mono 12
+
+# Load modules
+include ./conf.d/*
+include /etc/sway/config.d/*

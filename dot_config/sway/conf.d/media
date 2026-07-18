@@ -1,0 +1,44 @@
+# ==========================================
+# WOB SETUP & DAEMONS
+# ==========================================
+# Nuke old instances, recreate FIFOs, and spawn both wobs
+exec_always sh -c 'pkill -x wob; pkill -f "tail -f $SWAYSOCK"; rm -f $SWAYSOCK.wob $SWAYSOCK.wob2; mkfifo $SWAYSOCK.wob $SWAYSOCK.wob2; tail -f $SWAYSOCK.wob | wob -c ~/.config/wob/volume.ini & tail -f $SWAYSOCK.wob2 | wob -c ~/.config/wob/brightness.ini &'
+
+# ==========================================
+# VOLUME HOTKEYS (Pipes to .wob)
+# ==========================================
+bindcode --locked 123 exec pactl set-sink-volume @DEFAULT_SINK@ +5%
+
+$mybind XF86AudioRaiseVolume exec pamixer -ui 2 && pamixer --get-volume > $SWAYSOCK.wob
+$mybind XF86AudioLowerVolume exec pamixer -ud 2 && pamixer --get-volume > $SWAYSOCK.wob
+$mybind XF86AudioMute exec pamixer --toggle-mute && ( pamixer --get-mute && echo 0 > $SWAYSOCK.wob ) || pamixer --get-volume > $SWAYSOCK.wob
+
+$mybind XF86AudioPlay exec playerctl play-pause
+$mybind XF86AudioNext exec playerctl next
+$mybind XF86AudioPrev exec playerctl previous
+$mybind XF86AudioStop exec playerctl stop
+
+# ==========================================
+# BRIGHTNESS HOTKEYS (Pipes to .wob2)
+# ==========================================
+set $step 2
+set $bus 5 
+
+set $ddc_set ddcutil --bus $bus setvcp
+set $ddc_get ddcutil --bus $bus getvcp
+
+# Laptop
+$mybind XF86MonBrightnessDown exec brightnessctl set $step%- -m | cut -d',' -f4 | tr -d '%' > $SWAYSOCK.wob2
+$mybind XF86MonBrightnessUp exec brightnessctl set $step%+ -m | cut -d',' -f4 | tr -d '%' > $SWAYSOCK.wob2
+
+# External monitor
+$mybind $mod+F11 exec $ddc_set 10 - $step && $ddc_get 10 -t | awk '{print $$4}' > $SWAYSOCK.wob2
+$mybind $mod+F12 exec $ddc_set 10 + $step && $ddc_get 10 -t | awk '{print $$4}' > $SWAYSOCK.wob2
+
+# Min-Max
+$mybind $mod+Shift+F11 exec $ddc_set 10 100 && echo '100' > $SWAYSOCK.wob2
+$mybind $mod+Shift+F12 exec $ddc_set 10 1 && echo '1' > $SWAYSOCK.wob2
+
+# On-Off
+$mybind $mod+F9 exec $ddc_set D6 1
+$mybind $mod+F10 exec $ddc_set D6 5

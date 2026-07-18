@@ -1,0 +1,21 @@
+# Берем конкретные файлы из OMZ, явно указывая kind:path
+#ohmyzsh/ohmyzsh path:lib/git.zsh kind:path
+#ohmyzsh/ohmyzsh path:lib/async_prompt.zsh kind:path
+#ohmyzsh/ohmyzsh path:lib/theme-and-appearance.zsh kind:path
+#ohmyzsh/ohmyzsh path:themes/arrow.zsh-theme kind:plugin
+
+# Основные плагины (тут всё без изменений)
+zsh-users/zsh-completions
+
+
+# FZF and FZF-Tab
+#junegunn/fzf kind:path
+#aloxaf/fzf-tab
+
+# Ленивая загрузка NVM
+lukechilds/zsh-nvm
+
+
+zsh-users/zsh-syntax-highlighting
+zsh-users/zsh-autosuggestions
+zsh-users/zsh-history-substring-search

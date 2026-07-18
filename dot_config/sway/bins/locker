@@ -1,0 +1,25 @@
+#!/bin/zsh
+swaylock -f -l -F \
+        --font-size 128 \
+        --text-color 1cbd8a \
+         --separator-color 1cbd8a99 \
+         --layout-text-color 1cbd8a99 \
+        --font ChalkDust \
+        --indicator-radius 160 \
+        --indicator-thickness 20 \
+        --indicator-x-position 350 \
+        --indicator-y-position 900 \
+        --layout-bg-color 00000066 \
+        --ring-color eeffff99 \
+        --key-hl-color 093538cc \
+        --line-color 00ff0000 \
+        --inside-color 093538dd \
+	--clock --indicator --timestr %H:%M --datestr %% \
+	--fade-in 1 \
+	--effect-greyscale \
+	--grace 3 --indicator-idle-visible \
+	--effect-vignette 0.1:0.9 \
+	--effect-pixelate 7 \
+	--screenshot
+        #-i ~/Media/wallpapers/igor-egorov-model-black-white-nude.jpg
+       # -i ~/Media/wallpapers/1458261-free-download-joker-why-so-serious-wallpaper-1920x1080.jpg

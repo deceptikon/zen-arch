@@ -1,0 +1,49 @@
+# Basics
+$mybind $mod+Return exec $setlang && exec $term
+$mybind $mod+Shift+q kill
+
+# Menus
+$mybind $mod+space exec $menu
+$mybind $mod+d exec $menu
+$mybind $mod+Print exec ~/.config/waybar/scripts/shutdown-dmenu.sh
+
+# System
+$mybind $mod+Shift+c reload
+$mybind $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -b 'Yes, exit sway' 'swaymsg exit'
+
+# App-specific overrides
+$mybind $mod+grave [app_id="org.telegram.desktop"] scratchpad show
+
+#
+# Start apps hotkeys
+#
+$mybind $mod+F1 exec firefox
+$mybind $mod+Shift+F1 exec google-chrome
+$mybind $mod+F2 exec cursor --enable-features=UseOzonePlatform --ozone-platform=wayland
+$mybind $mod+Shift+F2 exec codium --enable-features=UseOzonePlatform --ozone-platform=wayland
+#$mybind $mod+F2 exec codium --enable-features=UseOzonePlatform --ozone-platform=wayland
+$mybind $mod+F3 exec thunar
+$mybind $mod+F4 exec whatsdesk
+$mybind $mod+F5 exec Telegram
+$mybind $mod+Shift+s exec slurp | grim -g - - | wl-copy # screenshot selected area and put to clipboard
+$mybind $mod+Shift+r exec ~/.config/waybar/scripts/capturer.sh
+
+
+###########################
+#### AUTOSTART
+
+# exec --no-startup-id /home/lexx/.local/bin/sway-xkb-switcher  # Not found
+## exec --no-startup-id /home/lexx/.config/inactive-transparency.py
+# exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1  # Not found
+exec --no-startup-id nm-applet --indicator
+exec --no-startup-id udiskie --appindicator -t
+exec --no-startup-id dunst
+# exec --no-startup-id ydotoold  # Not found
+# exec --no-startup-id libinput-gestures  # Not found
+# exec --no-startup-id poweralertd  # Not found
+# exec --no-startup-id sleep 4 && autotiling  # autotiling not found
+# exec --no-startup-id $idlelock
+# exec foot --server
+# exec --no-startup-id gammastep-indicator  # Not found
+# exec --no-startup-id blueman-applet
+# exec --no-startup-id source ~/.zshrc  # Unnecessary in sway

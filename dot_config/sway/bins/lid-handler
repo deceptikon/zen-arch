@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Count active outputs that are NOT the internal laptop screen
+EXT_MONITORS=$(swaymsg -t get_outputs | jq '[.[] | select(.name != "eDP-1")] | length')
+
+if [ "$EXT_MONITORS" -gt 0 ]; then
+    # External monitor is present: Clamshell mode
+    swaymsg output eDP-1 disable
+else
+    # No external monitor: Suspend
+    systemctl suspend-then-hibernate
+fi

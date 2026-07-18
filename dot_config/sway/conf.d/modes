@@ -1,0 +1,121 @@
+
+# Создаем режим "FX-Config"
+mode "🔧 FX-Config" {
+    # Управление углами (Corners)
+    bindsym h    corner_radius up 2
+    bindsym j  corner_radius down 2
+
+    # Управление тенями (Shadows)
+    bindsym k shadow_blur_radius up 2
+    bindsym l  shadow_blur_radius down 2
+
+    # Управление блюром (Blur)
+    bindsym b blur toggle
+    bindsym n blur_xray toggle
+    bindsym shift+b blur_passes up 1
+    bindsym control+b blur_passes down 1
+
+    # Управление Gaps (если они не работают, покрути тут)
+    bindsym g gaps inner current plus 5
+    bindsym shift+g gaps inner current minus 5
+
+    # Выход из режима
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
+# Назначаем клавишу для входа в режим (например, Mod+Shift+e)
+bindsym $mod+Shift+f mode "🔧 FX-Config"
+
+# Режим настройки отступов
+mode "GAPS (HJKL: Inner/Outer | Shift+HJKL: Sides | S: Smart | 0: Reset)" {
+
+    # --- Внутренние (между окнами) ---
+    $mybind l gaps inner current plus 5
+    $mybind h gaps inner current minus 5
+
+    # --- Внешние (от краев экрана) ---
+    $mybind k gaps outer current plus 5
+    $mybind j gaps outer current minus 5
+
+    # --- Тонкая настройка сторон (Shift + HJKL) ---
+    # Горизонтальные (справа и слева)
+    $mybind Shift+l gaps horizontal current plus 5
+    $mybind Shift+h gaps horizontal current minus 5
+
+    # Вертикальные (сверху и снизу)
+    $mybind Shift+k gaps vertical current plus 5
+    $mybind Shift+j gaps vertical current minus 5
+
+    # --- Доп. функции ---
+    # Переключить smart_gaps (отступы при одном окне)
+    $mybind s smart_gaps toggle
+
+    # Сбросить всё в 0 для текущего воркспейса
+    $mybind BackSpace gaps inner current set 20; gaps outer current set 0; gaps horizontal current set 0; gaps vertical current set 0
+
+    # Выход в дефолтный режим
+    $mybind Return mode "default"
+    $mybind Escape mode "default"
+}
+
+# Биндим вход в режим (используем Mod+Shift+G)
+$mybind $mod+Shift+g mode "GAPS (HJKL: Inner/Outer | Shift+HJKL: Sides | S: Smart | 0: Reset)"
+gaps inner 4
+gaps outer 4
+
+
+# Сброс всего в дефолтные 8px
+# Повесил на $mod+Alt+Backspace
+$mybind $mod+Mod1+BackSpace gaps inner current set 4
+
+
+
+mode "resize" {
+    # left will shrink the containers width
+    # right will grow the containers width
+    # up will shrink the containers height
+    # down will grow the containers height
+    $mybind $left resize shrink width 10px
+    $mybind $down resize grow height 10px
+    $mybind $up resize shrink height 10px
+    $mybind $right resize grow width 10px
+
+    # Ditto, with arrow keys
+    $mybind Left resize shrink width 10px
+    $mybind Down resize grow height 10px
+    $mybind Up resize shrink height 10px
+    $mybind Right resize grow width 10px
+
+    # Return to default mode
+    $mybind Return mode "default"
+    $mybind Escape mode "default"
+}
+$mybind $mod+r mode "resize"
+$mybind $mod+Tab exec $swayr next-window all-workspaces >> /tmp/swayr.log 2>&1
+$mybind $mod+Shift+Tab exec $swayr prev-window all-workspaces >> /tmp/swayr.log 2>&1
+
+#
+# mode for swaynagmode - swaynag wrapper to accept keyboard commands
+#
+set $nag exec swaynagmode
+mode "nag" {
+  bindsym {
+    Ctrl+d    mode "default"
+
+    Ctrl+c    $nag --exit
+    q         $nag --exit
+    Escape    $nag --exit
+
+    Return    $nag --confirm
+
+    Tab       $nag --select prev
+    Shift+Tab $nag --select next
+
+    Left      $nag --select next
+    Right     $nag --select prev
+
+    Up        $nag --select next
+    Down      $nag --select prev
+  }
+}

@@ -1,0 +1,20 @@
+# Waybar
+exec_always ~/.config/waybar/scripts/waybar-start.sh reload
+$mybind $mod+x exec killall -SIGUSR1 waybar
+$mybind $mod+Shift+w exec ~/.config/waybar/scripts/waybar-start.sh reload
+
+# Dunst
+$mybind Ctrl+Space exec dunstctl close
+$mybind Ctrl+Shift+Space exec dunstctl close-all
+$mybind Ctrl+grave exec dunstctl history-pop
+$mybind Ctrl+$mod+grave exec ~/.config/waybar/scripts/toggleDunst.sh && pkill -SIGRTMIN+9 waybar
+
+# Idle & Lock
+set $locker ~/.local/bin/locker
+$mybind $mod+q exec $locker
+
+exec swayidle -w \
+    timeout 500 $locker \
+    timeout 800 'swaymsg "output * power off" && systemctl suspend-then-hibernate' \
+    resume 'swaymsg "output * power on"' \
+    before-sleep $locker

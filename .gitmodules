@@ -1,0 +1,3 @@
+[submodule "dot_config/waybar"]
+	path = dot_config/waybar
+	url = git@github.com:deceptikon/waybar.git

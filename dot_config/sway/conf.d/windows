@@ -1,0 +1,73 @@
+floating_modifier $mod normal
+focus_follows_mouse always
+
+# Borders
+default_border pixel 1
+default_floating_border normal
+hide_edge_borders none
+
+$mybind $mod+u border none
+$mybind $mod+y border pixel 1
+$mybind $mod+n border normal
+
+# Movement & Focus
+set $flashBorder swaymsg 'border pixel 3' && sleep .2 && swaymsg 'border pixel 0'
+
+$mybind $mod+$left exec swaymsg focus left && $flashBorder
+$mybind $mod+$down exec swaymsg focus down && $flashBorder
+$mybind $mod+$up exec swaymsg focus up && $flashBorder
+$mybind $mod+$right exec swaymsg focus right && $flashBorder
+
+$mybind $mod+Left exec swaymsg focus left && $flashBorder
+$mybind $mod+Down exec swaymsg focus down && $flashBorder
+$mybind $mod+Up exec swaymsg focus up && $flashBorder
+$mybind $mod+Right exec swaymsg focus right && $flashBorder
+
+$mybind $mod+Shift+$left move left
+$mybind $mod+Shift+$down move down
+$mybind $mod+Shift+$up move up
+$mybind $mod+Shift+$right move right
+
+$mybind $mod+Shift+Left move left
+$mybind $mod+Shift+Down move down
+$mybind $mod+Shift+Up move up
+$mybind $mod+Shift+Right move right
+
+
+
+set $opacity1 0.9
+set $opacity2 0.8
+set $opacity3 0.7
+#for_window [class=".*"] opacity $opacity1
+#for_window [app_id=".*"] opacity $opacity1
+for_window [app_id="codium"] opacity $opacity1
+for_window [app_id=$term] opacity $opacity1
+
+    for_window [app_id="yad-calendar"] floating enable, move down 410px, move right 740px
+
+    for_window [app_id="yad" title="Bluetooth"] floating enable, resize shrink width 10000px, resize grow width 200px, resize shrink height 10000px, resize grow height 80px, move position cursor, move down 50px, move left 120px
+
+    # Prevent sleep/screenlock while watching fullscreen videos
+    for_window [class=".*"] inhibit_idle fullscreen
+    for_window [app_id=".*"] inhibit_idle fullscreen
+    for_window [app_id="nm-connection-editor"] floating enable, border normal 1
+    for_window [app_id="pavucontrol"] floating enable, border normal 1
+    for_window [app_id="galculator"] floating enable, border normal 1
+    for_window [class="qt5ct"] floating enable, sticky enable, border normal
+    for_window [class="Skype"] floating enable border normal
+    for_window [class="(?i)virtualbox"] floating enable border normal
+    for_window [app_id="yandex-music-player"] border normal 2, floating enable
+    for_window [app_id="pulseaudio-equalizer-gtk"] border normal 2, floating enable
+    for_window [class="PacketTracer"] floating enable
+    for_window [window_role="pop-up"] floating enable
+    # for_window [app_id=""] floating enable, sticky enable, border none
+    for_window [app_id="firefox" title="Picture in picture"] floating enable, sticky enable, border none
+   #for_window [app_id="Google-chrome-unstable" title="Picture-in-Picture"] floating enable, sticky enable, border none
+   for_window [floating] border csd
+
+
+# for_window [shell=".*"] title_format "%title :: %shell"
+
+
+# switch to workspace with urgent window automatically
+for_window [urgent=latest] focus
