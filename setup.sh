@@ -90,39 +90,44 @@ unlink_item() {
 process_all() {
     local action="$1" # "link" or "unlink"
     
-    # 1. Process dynamic directories (dot_*)
-    for src_dir in "$DOT_ROOT"/dot_*; do
+    shopt -s nullglob
+    # 1. Process dynamic directories (dot_* AND __*)
+    for src_dir in "$DOT_ROOT"/dot_* "$DOT_ROOT"/__*; do
         [[ -d "$src_dir" ]] || continue
         
-        # Translate 'dot_local_bin' -> '.local/bin'
-        local rel_path="$(basename "$src_dir" | sed 's/^dot_/./; s/_/\//g')"
+        local basename_dir="$(basename "$src_dir")"
+        local rel_path=""
+        
+        # Translate 'dot_' to '.' and '__' to nothing, then underscores to slashes
+        if [[ "$basename_dir" == dot_* ]]; then
+            rel_path="$(echo "$basename_dir" | sed 's/^dot_/./; s/_/\//g')"
+        elif [[ "$basename_dir" == __* ]]; then
+            rel_path="$(echo "$basename_dir" | sed 's/^__//; s/_/\//g')"
+        fi
+        
         local dest_dir="$HOME/$rel_path"
+        [[ "$action" == "link" ]] && mkdir -p "$dest_dir"
         
         for src_path in "$src_dir"/*; do
             [[ -e "$src_path" ]] || continue
-            if [[ "$action" == "link" ]]; then
-                link_item "$src_path" "$dest_dir"
-            else
-                unlink_item "$src_path" "$dest_dir"
-            fi
+            # DYNAMIC CALL: resolves to link_item or unlink_item automatically!
+            "${action}_item" "$src_path" "$dest_dir"
         done
     done
 
-    # 2. Process root files starting with a dot (e.g., .zshenv, .zshenv.secrets)
+    # 2. Process root files starting with a dot (e.g., .zshenv)
     for src_path in "$DOT_ROOT"/.*; do
         [[ -f "$src_path" ]] || continue
         local item_name="$(basename "$src_path")"
-        # Skip git config & current/parent dir references
+        
         if [[ "$item_name" =~ ^\.git || "$item_name" == "." || "$item_name" == ".." ]]; then
             continue
         fi
         
-        if [[ "$action" == "link" ]]; then
-            link_item "$src_path" "$HOME"
-        else
-            unlink_item "$src_path" "$HOME"
-        fi
+        # DYNAMIC CALL: reuse the same logic
+        "${action}_item" "$src_path" "$HOME"
     done
+    shopt -u nullglob
 }
 
 # --- LIFECYCLE ---
