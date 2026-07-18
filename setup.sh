@@ -22,11 +22,16 @@ log_err() {
 check_prereqs() {
     log "Checking prerequisites..."
     local deps=(
+        # --- UI & Core System ---
         "sway" "waybar" "rofi" "dunst" "wezterm" "micro" "ranger" "mc" "zsh" "jq"
-        "swayidle" "swaynag" "wob" "yad" "nm-applet:network-manager-applet" 
-        "nm-connection-editor" "udiskie" "pamixer" "pactl:pulseaudio-utils" 
-        "playerctl" "pavucontrol" "brightnessctl" "ddcutil" "grim" "slurp" 
-        "wl-copy:wl-clipboard" "thunar" "Telegram:telegram-desktop" "firefox" "galculator" "qt5ct"
+        "swayidle" "swaynag" "wob" "yad"
+        "nm-applet:network-manager-applet" "nm-connection-editor"
+        "udiskie" "pamixer" "pactl:pulseaudio-utils" "playerctl" "pavucontrol"
+        "brightnessctl" "ddcutil" "grim" "slurp" "wl-copy:wl-clipboard"
+        "thunar" "Telegram:telegram-desktop" "firefox" "galculator" "qt5ct"
+
+        # --- Neovim & Development (No Node/NPM!) ---
+        "nvim:neovim" "git" "make:base-devel" "rg:ripgrep" "fd" "fzf" "unzip" "wget"
     )
     local missing=()
     for dep in "${deps[@]}"; do
