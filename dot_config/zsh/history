@@ -8126,3 +8126,111 @@ tail /tmp/waybar_errors.log -f
 ls /tmp
 echo "" > /tmp/waybar_errors.log
 tail /tmp/waybar_errors.log -f
+vim .config/sway/conf.d/io
+~/.dotfiles
+git status
+echo "dot_config/zsh/.zcompdump" >> .gitignore
+git status
+git rm dot_config/zsh/.zcompdump --cached
+git status
+git add .
+git commit -m "fix bg"
+.dotfiles
+git status
+poweroff
+.dotfiles
+nvim
+reboot
+.dotfiles
+nvim
+reboot
+.config/sway
+nvim
+Q/whisper.cpp
+build/bin
+ls
+whisper-cli --help
+./whisper-cli --help
+./whisper-cli -t 4 -otxt -pc -pp -m ~/.MODELS/ggml-small.bin -f /home/lexx/0.0.0/whisper-rec/2026-07-20T10-15-07-929Z.wav
+cat /home/lexx/0.0.0/whisper-rec/2026-07-20T10-15-07-929Z.wav.txt
+./whisper-cli -t 4 -otxt -pc -pp -m ~/.MODELS/ggml-small.bin -f /home/lexx/0.0.0/whisper-rec/2026-07-20T10-15-07-929Z.wav -l ru
+mv /home/lexx/0.0.0/whisper-rec/2026-07-20T10-15-07-929Z.wav.txt ~/0.0.0
+./whisper-cli -t 4 -otxt -pc -pp -m ~/.MODELS/ggml-small.bin -f /home/lexx/0.0.0/whisper-rec/2026-07-20T10-15-07-929Z.wav -l ru
+cat /home/lexx/0.0.0/whisper-rec/2026-07-20T10-15-07-929Z.wav.txt > wl-copy
+cat /home/lexx/0.0.0/whisper-rec/2026-07-20T10-15-07-929Z.wav.txt | wl-copy
+whisper-server -m ./models/ggml-small.bin --port 7777 --host 127.0.0.1
+cp ~/Q/whisper.cpp/models/ggml-small.bin ~/.MODELS
+whisper-server -m ~/.MODELS/ggml-small.bin --port 7777 --host 127.0.0.1
+yay -Ss mouse
+yay -Ss mouse cursor
+yay -S unclutter rose-pine-cursor catpuccin-cursors-mocha
+yay -S cattpuccin-cursors-mocha
+yay -S catppuccin-cursors-mocha
+yay -S catppuccin-cursors-mocha
+vim ~/.cache/yay/catppuccin-cursors-mocha/PKGBUILD
+yay -S catppuccin-cursors-mocha
+unclutter
+yay -R unclutter
+yay -S unclutter
+yay -Rc unclutter
+swaymsg -t output HDMI-A-1 scale 2
+swaymsg output HDMI-A-1 scale 2
+swaymsg output HDMI-A-1 scale 1.5
+../waybar
+tail logs/sysmon-poller.pid
+tail logs/sysmon-poller
+tail logs/sysmon.log
+tail logs/sysmon.log -f
+.dotfiles
+nvim dot_config/sway/conf.d/io
+journalctl -f
+  sudo pacman -S qemu-full edk2-ovmf parted dosfstools btrfs-progs\
+
+yay -Rc virtualbox-*
+yay -Rc virtualbox
+yay -Rc virtualbox-host-dkms
+ranger
+ranger
+nnn -C -d -D
+yay -S nnn
+nnn
+man nnn
+nnn --help
+nnn --help | less
+w3m
+yay -Ss w3m
+yay -Ss ueberzug
+yay -S python-pigments
+yay -Ss python-pigments
+yay -Ss pigments
+yay -Ss python-pygments
+yay -S python-pygments
+pygmentize -L style
+pygmentize -L style | less
+yay -S ueberzug
+ueberzug
+ueberzug layerr
+ueberzug layer
+yay -Rc ueberzug
+yay -S ueberzug
+yay -Rs ueberzug
+yay -Ss ueberzug
+yay -S ueberzugpp
+ueberzug layer
+cat .config/ranger/rc.conf | grep preview_im
+yay -S atool
+yay -S atool zip unzip unrar
+yay -S scrcpy adb-tools
+yay -S scrcpy adb
+yay -S zoom
+zoom
+xlsclients
+nvim ~/.config/zoomus.conf
+zoom
+zoom
+ranger
+echo $EDITOR
+vim ~/.zshenv
+echo $EDITOR
+source ~
+echo $EDITOR

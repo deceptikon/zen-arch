@@ -125,9 +125,9 @@ process_all() {
         [[ -f "$src_path" ]] || continue
         local item_name="$(basename "$src_path")"
         
-        if [[ "$item_name" =~ ^\.git || "$item_name" == "." || "$item_name" == ".." ]]; then
-            continue
-        fi
+    if [[ "$item_name" == "." || "$item_name" == ".." || ( "$item_name" == .git* && "$item_name" != ".gitconfig" ) ]]; then
+        continue
+    fi
         
         # DYNAMIC CALL: reuse the same logic
         "${action}_item" "$src_path" "$HOME"
