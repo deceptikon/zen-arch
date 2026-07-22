@@ -2,8 +2,8 @@
 export ZDOTDIR=$HOME/.config/zsh
 ####################################
 
-export EDITOR=vim
-export VISUAL=vim
+export EDITOR=nvim
+export VISUAL=nvim
 
 # Другие полезные переменные окружения
 export OLLAMA_HOST="http://localhost:11111"

@@ -5,10 +5,10 @@
 # set $bg bg #ff00ee solid_color
 $mybind $mod+Ctrl+w exec ~/.local/bin/sway-bg-shuffler
 exec --no-startup-id ~/.local/bin/sway-bg-shuffler
-set $bg bg "$(cat /tmp/bg 2>/dev/null || echo '../../..//Media/wallpapers/core/black-haired-girl.jpg')" fill
+set $bg bg "$(cat /tmp/bg 2>/dev/null || echo './../../../../Media/wallpapers/core/black-haired-girl.jpg')" fill
 
-output eDP-1 mode 2880x1800 scale 1.5 position 2560 0 $bg
-output HDMI-A-1 mode 2560x1440 position 0 0 $bg
+output eDP-1 mode 2880x1800 scale 1.5 position 1707 0 $bg
+output HDMI-A-1 mode 2560x1440 scale 1.5 position 0 0 $bg
 
 ### Input configuration
 #
@@ -56,10 +56,14 @@ bindswitch --locked lid:off exec sleep 2 && swaymsg output eDP-1 power on && swa
 
 
 # Cursors
-set $cursor_theme "capitaine-cursors"
-set $cursor_size 48
+# set $cursor_theme "capitaine-cursors"
+# set $cursor_theme "BreezeX-RosePineDawn-Linux"
+set $cursor_theme "catppuccin-mocha-green-cursors"
+set $cursor_size 32
 
 seat seat0 xcursor_theme $cursor_theme $cursor_size
+seat seat0 hide_cursor 5000
+seat seat0 hide_cursor when-typing enable
 
 exec_always {
     gsettings set org.gnome.desktop.interface cursor-theme $cursor_theme
