@@ -16,6 +16,8 @@ export PATH="$HOME/.local/bin:$PATH"
 export COLORTERM=truecolor
 export GGUF_PATH=~/.MODELS/gemma4-coding-q4_k_m.gguf
 
+# kimi-code
+export PATH="/home/lexx/.kimi-code/bin:$PATH"
 
 # Load private tokens/envs if the file exists
 if [[ -f "$HOME/.zshenv.secrets" ]]; then
