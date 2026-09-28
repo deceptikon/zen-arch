@@ -1,0 +1,10 @@
+#!/bin/bash
+    leader=$(machinectl show "$1" -p Leader --value)
+    echo $leader
+    
+    if [ -z "$leader" ] || [ "$leader" -eq 0 ]; then
+        echo "Machine '$1' is not running or doesn't exist."
+    fi
+    
+    sudo nsenter -a -t "$leader" /bin/bash
+

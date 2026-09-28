@@ -8234,3 +8234,2722 @@ vim ~/.zshenv
 echo $EDITOR
 source ~
 echo $EDITOR
+echo $EDITOR
+ranger
+ln -s ~/.dotfiles/.gitconfig ~/.config
+ln -s ~/.dotfiles/.gitconfig ~/
+ls
+ls -lah
+ranger
+.dotfiles
+./setup.sh install
+git status
+git add dot_config/ghostty/
+git add dot_config/ranger/
+git add .gitconfig
+git commit -m "added a few configs"
+git status
+git diff
+git status
+git add .zshenv dot_config/sway/conf.d/io
+git commit -m "change default sway input cfg"
+git status
+git diff
+git add .
+dot_config/waybar
+git status
+git diff
+git add .
+git commit -m "sysmon applets visual tweaks"
+git push
+../
+../
+git status
+git add .
+git commit -m "extended dotfiles support"
+git push
+git status
+dot_config/waybar
+git status
+../..
+ls
+mv ~/.config/opencode-bwrap
+mv bwrap.conf ~/.config/opencode-bwrap/
+rvc context
+ln -s ~/W/RVC_reload ~/0.0.0/RVC/
+export | grep OPENR
+ls tmp
+ls /tmp
+ls /tmp/opencode
+rm /tmp/* -rf
+ls
+git init
+git add .
+git commit -m "initial draft"
+rm tmp/* -rf
+git add .
+git commit -m "initial draft"
+rm .git -rf
+git init
+git add .
+git commit -m "initial draft"
+git diff
+git add .
+git commit -m "closer to trustable piece"
+cp ~/W/ ~/W.back -R
+git status
+git diff
+export | grep OPENR
+source ~
+export | grep OPENR
+source ~/
+source ~/.zshenv
+export | grep OPENR
+ln -s ~/W/RVC_reload/rvc.py ~/.local/bin/rvc
+rvc
+opencode-bwrap
+opencode-bwrap
+opencode-bwrap
+RVC_SESSION=DeepSeekFlash opencode-bwrap
+RVC_SESSION=DeepSeekFlash opencode-bwrap -c
+RVC_SESSION=DeepSeekFlash opencode-bwrap -c
+RVC_SESSION=GLM opencode-bwrap -c
+export | grep OPENR
+yay -S code
+sudo pacman -S code
+sudo pacman -Ss code
+sudo pacman -Ss vscode
+sudo pacman -Ss vscodium
+sudo pacman -Ss codium
+yay -Ss codium
+yay -S code
+nvim .zshenv.secrets
+export | grep OPENR
+sss ntpd
+sss ntp
+yay -S ntp
+sss ntp
+sss ntpd
+ss enable ntpd
+date
+ss start ntpd
+sss ntpd
+date
+timedatectl
+sss ntpd
+timedatectl --help
+timedatectl show
+timedatectl set-timezone Asia/Bishkek
+timedatectl show
+timedatectl set-ntp true
+timedatectl show
+ranger --copy-config=all
+ranger
+ranger
+ranger
+ranger
+ranger
+ranger
+mkdir W
+cd W
+curl -fsSL https://raw.githubusercontent.com/cyunrei/opencode-bwrap/master/install-remote.sh | bash
+yay -S opencode
+curl -fsSL https://raw.githubusercontent.com/cyunrei/opencode-bwrap/master/install-remote.sh | bash
+nvim ~/.config/opencode-bwrap/bwrap.conf.example
+mkdir plates/default -p
+ln -s ~/0.0.0/RVC/critique-mvp-0point.md plates/default
+opencode_bwrap
+opencode-bwrap
+pwd
+export PWD=/home/lexx/W
+opencode-bwrap
+opencode
+opencode-bwrap
+nvim ~/.config/opencode-bwrap/bwrap.conf.example
+opencode-bwrap -c
+cp -f ~/0.0.0/RVC/critique-mvp-0point.md plates/default
+nvim ~/.config/opencode-bwrap/bwrap.conf.example
+opencode-bwrap -c
+mkdir tmp
+nvim ~/.config/opencode-bwrap/bwrap.conf.example
+opencode-bwrap -c
+opencode-bwrap
+cd RVC_reload
+ls
+opencode-bwrap
+nvim ~/.config/opencode
+opencode-bwrap
+opencode-bwrap -c
+RVC_SESSION="supervisor" opencode-bwrap -c
+RVC_SESSION="supervisor" opencode-bwrap -c
+RVC_SESSION=GLM opencode-bwrap
+RVC_SESSION=GLM opencode-bwrap
+export | grep OPENR
+RVC_reload
+./rvc.py context
+git status
+git status
+git log
+git add .
+git commit -m "bulk commiting restructure movements"
+echo "tmp/" >> ../.gitignore
+git status
+git add .
+git commit -m "bulk commiting restructure movements"
+git add ../*
+git status
+git add ../
+git status
+git commit --amend
+git status
+git status
+./rvc.py context
+python3 -c "\
+import re\
+p = 'rvc.py'\
+c = open(p).read()\
+old = 'starting_prompt = \"Run \`rvc load\` to get full context.\\n\" + \"\\n\".join(starting_lines)'\
+new = 'starting_prompt = \"Session ritual: rvc load (start) ⃦�� rvc plate active <ID> ⃦�� rvc note ... (during) ⃦�� rvc save summary (end, no edits after)\\nRun \`rvc load\` to get full context.\\n\" + \"\\n\".join(starting_lines)'\
+open(p, 'w').write(c.replace(old, new))\
+"\
+
+python3 rvc.py save "BUG-1 symlink fix  � handover symlinks resolved via relpath, ritual encoded in handover"
+git status
+git status
+nvim .RVC/issues/TASK-2-fix-starting-prompt-to-never-be-empty.md
+git status
+git status\\
+
+ls ../
+git status\\
+
+git status\\
+
+git status\\
+
+git status\\
+
+echo "audit.logl" >> ../.gitignore
+git status\\
+
+watch .RVC/meta/audit.logl
+sudo watch .RVC/meta/audit.logl
+sudo watch cat .RVC/meta/audit.logl
+ls
+sudo watch cat .RVC/meta/audit.logl
+git status
+vim ../.gitignore
+ls
+ls -lah
+git status
+git add .
+tail .RVC/meta/audit.logl -f
+git status
+git status
+git log
+git status
+git status
+git status
+ranger
+git stash
+git status
+ranger
+git status
+git restore ../plates/default/critique-mvp-0point.md
+git status
+git status
+echo "tests/__pycache__" >> ../.gitignore
+git rm "tests/__pycache__/*" --cached
+git status
+vim ../.gitignore
+git status
+vim ../.gitignore
+git status
+git add .
+git commit -m "gitignore and logs"
+git status
+git diff
+git add .
+git commit -m "gitignore and logs"
+git status
+git add ../.gitignore
+git status
+git commit --amend
+git remote add origin git@github.com:deceptikon/RVC-v2.git
+git push -u origin master
+git status
+tail .RVC/meta/audit.logl
+tail .RVC/meta/audit.logl -f
+ln -s ~/X/TEAMFLOW/RVC/rvc-vault ~/0.0.0/RVC/old-vault
+ln -s .RVC RVC-VAULT
+ls
+..
+ls
+~/0.0.0
+ls
+RVC
+ls
+whisper-rec
+./whisper-cli -t 4 -otxt -pc -pp -m ~/.MODELS/ggml-small.bin -f /home/lexx/0.0.0/RVC/whisper-rec/2026-07-22T22-05-51-559Z.wav -l en
+~/Q/whisper.cpp/build/bin/whisper-cli -t 4 -otxt -pc -pp -m ~/.MODELS/ggml-small.bin -f /home/lexx/0.0.0/RVC/whisper-rec/2026-07-22T22-05-51-559Z.wav -l en
+W/RVC_reload
+rvc doctor
+rvc doctor --fix
+0.0.0/RVC
+ls
+RVC_reload
+./rvc.py context
+uptime
+reboot
+regreet
+greetd statys
+greetd status
+journalctl -u greetd
+journalctl -f
+reboot
+htop
+journalctl
+journalctl -n 50
+journalctl -n 100
+journalctl -n 150
+htop
+top
+ps -aux
+ps -aux
+ps -aux | grep bwrap > ttttt
+vim ttttt
+nvim ttttt
+rm ttttt
+pactree -r glycin
+top
+ps -eo ppid,pid,user,%cpu,%mem,cmd | grep glycin
+ps -eo ppid,pid,user,%cpu,%mem,cmd | grep glycin
+ps -eo ppid,pid,user,%cpu,%mem,cmd | grep glycin
+ps -p 967
+ps -p 1113
+ps -p 1114
+ps -p 1173
+ps -p 1174
+ps -p 6744
+killall glycin-image-rs
+killall glycin-image-rs
+killall glycin-image-rs
+htop
+ps -eo ppid,pid,user,%cpu,%mem,cmd | grep glycin
+ps -eo ppid,pid,user,%cpu,%mem,cmd | grep glycin
+ps -eo ppid,pid,user,%cpu,%mem,cmd | grep glycin
+htop
+ps -eo ppid,pid,user,%cpu,%mem,cmd | grep glycin
+killall glycin-image-rs
+ps -eo ppid,pid,user,%cpu,%mem,cmd | grep glycin
+sudo rm /usr/lib/glycin-loaders/2+/glycin-image-rs
+sudo touch /usr/lib/glycin-loaders/2+/glycin-image-rs
+sudo chmod 000 /usr/lib/glycin-loaders/2+/glycin-image-rs
+sudo chattr +i /usr/lib/glycin-loaders/2+/glycin-image-rs
+sudo pkill -9 glycin-image-rs
+ps -eo ppid,pid,user,%cpu,%mem,cmd | grep glycin
+systemctl --user status
+yay -S virt-manager
+yay -S virt-manager
+yay -S virt-manager
+sudo pacman -S virt-manager
+xbps-install
+A/void
+sudo xbps-install -R https://voidlinux.org \\
+  -r . -S python3 python3-pip python3-devel git curl base-devel libffi-devel openssl-devel
+yay -S xbps
+yay -Ss gtk settings
+yay -S nwg-look swaysettings
+yay -Ss sassc
+yay -S sassc
+yay -S nwg-look swaysettings
+yay -S nwg-look
+yay -S swaysettings
+yay -S glycin-gtk4-2
+yay -Ss glycin-gtk4-2
+yay -S glycin-gtk4
+yay -S swaysettings
+sudo pacman -S virt-manager
+sudo pacman -S libvirt  dnsmasq iptables-nft\
+
+ss enable libvirtd.service
+sudo usermod -aG libvirt $USER
+newgrp libvirt
+ва- р
+df -h
+тмеу�з
+nvtop
+yay -S ladybird
+cat /home/lexx/.cache/yay/ladybird/src/build/vcpkg-bootstrap.log
+yay -Ss ninja
+ninja
+ninja --version
+yay -S librewolf
+mkdir A
+mkdir void
+mv void A/
+cd A/void
+cp ~/Downloads/void-x86_64-ROOTFS-20250202.tar.xz ./
+ls
+sudo tar -xvf void-x86_64-ROOTFS-20250202.tar.xz
+ls
+rm void-x86_64-ROOTFS-20250202.tar.xz
+rm void-x86_64-ROOTFS-20250202.tar.xz
+ls -lah
+newgrp lexx
+ls -lah ../
+..
+sudo rm void -rf
+mkdir void
+ls -lah ./
+cp ~/Downloads/void-x86_64-ROOTFS-20250202.tar.xz void
+cd void
+ls -lah
+tar -xvf void-x86_64-ROOTFS-20250202.tar.xz
+ls -lah
+rm void-x86_64-ROOTFS-20250202.tar.xz
+..
+sudo rm void -rf
+mkdir void
+cp ~/Downloads/void-x86_64-ROOTFS-20250202.tar.xz void
+cd void
+sudo tar -xfv void-x86_64-ROOTFS-20250202.tar.xz
+sudo tar -xvf void-x86_64-ROOTFS-20250202.tar.xz
+rm void-x86_64-ROOTFS-20250202.tar.xz
+sudo rm void-x86_64-ROOTFS-20250202.tar.xz
+..
+sudo systemd-nspawn -D ~/A/void
+sudo systemd-nspawn -D ~/A/void -b --network-veth
+sudo systemd-nspawn -D ~/A/void -b --network-veth
+sudo systemd-nspawn -D ~/A/void -b --network-veth --hostname=void-agent
+sudo systemd-nspawn -D ~/A/void -b --network-veth --hostname=void-agent
+systemd-run --machine=void -P /bin/bash
+sudo systemd-run --machine=void -P /bin/bash
+sudo systemd-run --machine=void -P /bin/bash
+ps -ef | grep nspawn
+sudo nsenter -t 2090657 -m -u -i -n -p /bin/bash
+ps -ef | grep nspawn
+sudo nsenter -t 2090661 -m -u -i -n -p /bin/bash
+sudo nsenter -t 2090662 -a -r -t -m -u -i -n -p /bin/bash
+sudo nsenter -t 2090662 -a -r -m -u -i -n -p /bin/bash
+ps -ef | grep -E 'runit|init|void'
+pstree -p 2090662
+sudo nsenter -t 2090769 -a -r -m -u -i -n -p /bin/bash
+sudo nsenter -t 2090769 -a -r -m -u -i -n -p /bin/bash
+pstree -p | grep systemd-nspawn
+pstree -p | grep systemd-nspawn
+ps -ef | grep nspawn
+pstree -p | grep nspawn
+htpo
+htop
+sudo nsenter -t 2475744 -a -r -m -u -i -n -p /bin/bash
+machinectl list
+machinectl list
+htop
+ps -aux | grep runsvdir
+sudo nsenter -t 1584493 -a -r -m -u -i -n -p /bin/bash
+sudo tar --numeric-owner --xattrs --acls \\
+  -cJf ~/A/void-qwen-base-$(date +%F).tar.xz \\
+  -C ~/A/void
+machinectl list
+cat ~/.config/sway/conf.d/apps| grep scrot
+ranger ~/.config/sway/conf.d/apps
+ranger
+slurp
+grim
+grim --help
+grim -help
+grim -o "date(${timestamp}).png\
+"
+grim > "date(${time}).png\
+"
+ls
+ranger
+nvim scr
+chmod +x scr
+./scr
+nvim scr
+nvim scr
+./scr
+tail .config/waybar/logs/sysmon.log
+ranger
+yay -S papirus-icon-theme-png
+yay -Ss papirus-icon-theme-png
+yay -Ss papirus
+yay -Ss papirus png
+sudo pacman -S papirus-icon-theme librsvg
+mkdir -p ~/.local/share/icons
+cp -r /usr/share/icons/Papirus ~/.local/share/icons/Papirus-PNG
+cd ~/.local/share/icons/Papirus-PNG
+nvim convert.sh
+chmod +x convert.sh
+./convert.sh
+ranger
+ps -aux | glycin
+ps -aux | grep glycin
+yay -Ss awoken-icon-theme
+yay -Ss awoken icon
+yay -S awoken-icons
+yay -Ss moca icon
+yay -Ss faba icon
+yay -S faba-icon-theme
+nvim convert.sh
+nvim convert-icon.sh
+cp -r /usr/share/icons/AwOken  ~/.local/share/icons/Awoken-PNG
+cd ../Awoken-PNG
+cp ../Papirus-PNG/convert-icon.sh ./
+chmod +x convert-icon.sh
+./convert-icon.sh
+../
+cp -r /usr/share/icons/Faba  ~/.local/share/icons/Faba-PNG
+cp ../Papirus-PNG/convert-icon.sh ./
+cd Faba-PNG
+cp ../Papirus-PNG/convert-icon.sh ./
+./convert-icon.sh
+chmod +x convert-icon.sh
+./convert-icon.sh
+cp -r /usr/share/icons/Papirus  ~/.local/share/icons/PapiroPNG
+../PapiroPNG
+cp ../Papirus-PNG/convert-icon.sh ./
+chmod +x convert-icon.sh
+./convert-icon.sh
+vim convert-icon.sh
+./convert-icon.sh
+../
+cp PapiroPNG/convert-icon.sh ./
+rm PapiroPNG -rf
+cp -r /usr/share/icons/Papirus  ~/.local/share/icons/PapiroPNG
+cp convert-icon.sh PapiroPNG
+cd PapiroPNG
+./convert-icon.sh
+machinectl terminate void
+sudo umount -l /run/systemd/nspawn/void/unix-export
+sudo rm -rf /run/systemd/nspawn/propagate/void
+sudo systemd-nspawn --cleanup -M void
+sudo systemctl restart systemd-machined
+sudo systemctl unmask systemd-machined.service
+sudo systemctl restart systemd-machined.service
+machinectl terminate void
+sudo systemd-nspawn --cleanup -M void
+sudo systemd-nspawn --cleanup -M ~/A/void
+sudo systemd-nspawn --cleanup -D ~/A/void
+sudo systemctl stop void.scope
+sudo systemctl reset-failed void.scope
+node -v
+~/A
+sudo tar -cJf void-base.tar.xz -C ./void .
+ls -lah\\
+
+ls /var/lib/machines
+sudo ls /var/lib/machines
+htop
+ip link
+ip link set ve-void up
+sudo ip link set ve-void up
+ip link
+nvim /etc/systemd/nspawn/void.nspawn
+sudo mkdir /etc/systemd/nspawn
+sudo nvim /etc/systemd/nspawn/void.nspawn
+sudo machinectl login void
+sudo machinectl shell void
+sudo machinectl restart void
+sudo machinectl shell void
+sudo machinectl login void
+sudo machinectl shell void
+sudo systemd-run --pty -M void /bin/bash
+nvim /etc/systemd/network/80-void-zone.network
+sudo nvim /etc/systemd/network/80-void-zone.network
+sudo systemctl enable --now systemd-networkd\
+sudo systemctl restart systemd-networkd
+sudo nvim /etc/systemd/nspawn/void.nspawn
+vim ~/.dotfiles/dot_config/sway/bins/msh
+ln -s ~/.dotfiles/dot_config/sway/bins/msh ~/.local/bin
+msh
+sudo msh void
+sudo ln -s ~/.dotfiles/dot_config/sway/bins/msh ~/.local/bin
+sudo ln -s ~/.dotfiles/dot_config/sway/bins/msh /root/.local/bin
+sudo msh void
+sudo ln -s ~/.dotfiles/dot_config/sway/bins/msh /usr/bin
+sudo msh void
+/usr/bin/msh
+sudo chmod +x /usr/bin/msh
+/usr/bin/msh
+/usr/bin/msh void
+vim ~/.dotfiles/dot_config/sway/bins/msh
+/usr/bin/msh void
+vim ~/.dotfiles/dot_config/sway/bins/msh
+/usr/bin/msh void
+nvim /usr/bin/msh void
+sudo nvim /usr/bin/msh void
+ls
+..
+mv A A1
+ln -s /var/lib/machines ~/A
+mv A1/void A/
+sudo mv A1/void A/
+sudo systemd-nspawn -D ~/A/void -b --network-veth --hostname=void-agent
+A/
+ls -lah .
+ls -lah A/
+sudo ls -lah A/
+ps -aux | grep runsvdir
+sudo systemd-run --machine=void -P /bin/bash
+machinectl list
+machinectl status void
+machinectl enter void
+machinectl start void
+machinectl status void
+sudo machinectl poweroff void
+machinectl status void
+sudo machinectl poweroff void
+ip a
+ping ya.ru
+nvim .dotfiles
+yay -Suyy
+yay -Ss dooble
+yay -Ss dooble
+swaymsg output eDP-1 power off
+nvtop
+htop
+ss enable bluetooth.service
+ss enable bluetooth.service
+ss start bluetooth.service
+killall firefox
+htop
+htop
+ss stop greeterc
+ss stop greeter
+ss stop greeterd
+htop
+killall regreet
+sudo killall regreet
+sudo killall regreet
+sudo killall regreet'\
+\
+'
+killall greetd
+sudo killall greetd
+sudo killall greetd
+sway
+yay -S opera
+yay -S opera
+sudo nvim /etc/greetd
+sudo nvim /etc/greetd
+reboot
+reboot
+sudo pacman -Suyy
+yay -Suyy
+reboot
+sudo pacman -Suyy
+yay -Suyy
+reboot
+sudo pacman -Suyy
+yay -Suyy
+reboot
+nvim
+ss start bluetooth.service
+ss enable bluetooth.service
+wezterm --debug
+wezterm --help
+wezterm -n
+sudo pacman -Syu
+wezterm -n
+wezterm
+nvim .dotfiles/dot_config
+reboot
+yay -Suyy
+ranger
+whisper-server -m ~/.MODELS/ggml-small.bin --port 7777 --host 127.0.0.1
+Q/whisper.cpp
+whisper-server -m ~/.MODELS/ggml-small.bin --port 7777 --host 127.0.0.1
+~/Q/whisper.cpp/build/bin/whisper-cli -t 4 -otxt -pc -pp -m ~/.MODELS/ggml-small.bin -f /home/lexx/0.0.0/RVC/whisper-rec/2026-07-22T22-05-51-559Z.wav -l en
+nslookup
+yay -S dnsutils
+yay -Ss nslookup
+yay -S dnsutils
+nslookup
+nslookup massage.kg 8.8.8.8
+nslookup massage.kg ns9.hoster.kg
+sudo lsattr -R / 2>/dev/null | grep -E '^....i'\
+
+sudo chattr -i /usr/lib/glycin-loaders/2+/glycin-image-rs
+cat /usr/lib/glycin-loaders/2+/glycin-image-rs
+sudo cat /usr/lib/glycin-loaders/2+/glycin-image-rs
+pacman -Qo /usr/lib/glycin-loaders/2+/glycin-image-rs\
+
+yay -R glycin
+yay -S glycin
+sudo cat /usr/lib/glycin-loaders/2+/glycin-image-rs
+yay -Ss whatsapp
+yay -Ss whatsapp | grep Rust
+yay -Ss pidgin
+yay -Ss whatsapp | grep fast
+yay -Ss whatsapp rust
+yay -S whatstux
+su postgres
+su postgres
+su postgres
+passwd postgres
+sudo passwd postgres
+su postgres
+ss postgres
+sss postgres
+sss postgresqql
+sss postgresql
+ss start postgresql
+sudo ss start postgresql
+sss postgresql
+sudo ss enable postgresql
+X/ADLAI
+cat .env
+frontend
+npm run dev
+..
+cat .env
+gitlab-runner run
+sudo pacman -S gitlab-runner
+gitlab-runner run
+ranger
+gitlab-runner run
+cp /OLD/.gitlab-runner ~/
+cp /OLD/.gitlab-runner ~/ -r
+gitlab-runner run
+ss enable docker
+ss start docker
+docker
+sss docker
+groups
+docker ps
+sss docker
+docker start
+ss restart docker
+journalctl -xeu docker.service
+sss docker
+ss stop docker
+ss docker
+sss docker
+ss start docker
+sss docker
+journalctl -u docker.service --no-pager -n 50\
+
+sudo iptables -t nat -F DOCKER 2>/dev/null || true\
+sudo iptables -t nat -X DOCKER 2>/dev/null || true\
+
+sudo iptables -t nat -F DOCKER 2>/dev/null || true\
+
+sudo iptables -t nat -X DOCKER 2>/dev/null || true\
+
+ss start docker
+sudo iptables -t nat -X DOCKER\
+
+sudo vim /etc/docker/daemon.json
+sudo vim /etc/docker/daemon.json
+sudo touch /etc/docker/daemon.json
+sudo cat /etc/docker/daemon.json
+ls /etc/docker
+sudo mkdir /etc/docker
+sudo vim /etc/docker/daemon.json
+sudo systemctl daemon-reload\
+sudo systemctl restart docker\
+
+cat /etc/docker/daemon.json
+sudo systemctl daemon-reload\
+sudo systemctl restart docker\
+
+systemctl reset-failed docker
+sudo systemctl daemon-reload\
+sudo systemctl restart docker\
+
+sudo ss start docker
+ss stop docker
+ss start docker
+sss docker
+cat sss docker
+sss docker | cat
+sss dockeR
+sss docker
+journalctl -u docker.service --no-pager -n 50\
+
+lsmod | grep br_netfilter\
+
+sudo modprobe br_netfilter\
+
+systemctl status containerd\
+
+uname -r
+grep BRIDGE_NETFILTER /proc/config.gz\
+
+docker -v
+sudo modprobe bridge && echo "bridge OK" || echo "bridge FAIL"\
+
+sudo modprobe veth && echo "bridge OK" || echo "bridge FAIL"\
+
+sudo modprobe overlay && echo "bridge OK" || echo "bridge FAIL"\
+
+ls -la /proc/config.gz\
+
+cat /usr/lib/modules/$(uname -r)/config | grep -E 'CONFIG_BRIDGE=|CONFIG_VETH='\
+
+find /lib/modules/$(uname -r) -name 'bridge*' -o -name 'veth*'\
+
+ls /lib/modules/$(uname -r)\
+
+sudo ls /lib/modules/$(uname -r)\
+
+sudo ls /lib/modules/\
+
+uname -r
+гзеу�у�у�
+uptime
+reboot
+Q
+ls
+ranger
+yay -S postgresql dbeaver
+~/X/ADLAI
+uv
+curl -LsSf https://astral.sh/uv/install.sh | sh
+uv
+./run_docker.sh
+ psql -U postgres -d adlai -c "SELECT law_type, count(*), count(embedding) FROM corpus GROUP BY law_type;"
+uv run uvicorn main:app --reload --port 8000
+uv run uvicorn main:app --reload --port 8000
+uv run uvicorn main:app --reload --port 8000
+yay -Ss antigravity
+curl -fsSL https://antigravity.google/cli/install.sh | basH
+curl -fsSL https://antigravity.google/cli/install.sh | basр
+curl -fsSL https://antigravity.google/cli/install.sh | zsh
+X
+ls
+ADLAI
+agy
+agy --dangerously-skip-permissions\
+
+ ./scripts/run_inference.sh star
+ ./scripts/run_inference.sh start
+git status
+git add .
+git commit -m "Added laws corpus provided by Salwa, tested locally"
+git push
+sudo nvim /etc/hosts
+cat .git /config | grep remote
+cat .git/config | grep remote
+ls -lah
+cat .git | grep remote
+cat .git 
+cat ../.git/modules/ADLAI/config
+cat ../.git/modules/ADLAI/config | grep url
+vps
+sudo nvim /etc/hosts
+vps
+vps
+vps
+nvim .gitlab-runner/config.toml
+nvim .gitlab-runner/config.toml
+lsmod | grep br_netfilter\
+
+sudo modprobe br_netfilter\
+
+lsmod | grep br_netfilter\
+
+docker run --rm alpine nslookup gitlab.goavisa.com\
+
+lsmod | grep br_netfilter\
+
+cat <<EOF | sudo tee /etc/sysctl.d/99-bridge.conf\
+net.bridge.bridge-nf-call-iptables=1\
+net.bridge.bridge-nf-call-ip6tables=1\
+EOF
+sudo sysctl -p\
+
+sudo modprobe br_netfilter\
+
+lsmod | grep br_netfilter\
+
+docker run --rm alpine nslookup gitlab.goavisa.com\
+
+nslookup gitlab.goavisa.com\
+
+docker run --rm alpine cat /etc/resolv.conf\
+
+sudo iptables -L -n -v | grep -i "53"\
+# или, если у� тебу� nftables (у�то вероу�тно на Zen kernel):\
+sudo nft list ruleset | grep -i "53"\
+
+nslookup gitlab.goavisa.com
+nslookup gitlab.goavisa.com
+nslookup gitlab.goavisa.com
+nslookup gitlab.goavisa.com
+docker run --rm alpine cat /etc/resolv.conf
+sysctl -a | grep bridge-nf
+sudo sysctl -a | grep bridge-nf
+sudo sysctl -a | grep bridge-nf
+nslookup gitlab.goavisa.com
+sudo sysctl -a | grep bridge-nf
+sudo sysctl -a | grep bridge-nf
+docker run --rm alpine cat /etc/resolv.conf\
+
+docker run --rm alpine ping -c 3 10.99.10.99\
+
+docker run --rm alpine ping -c 3 ya.ru\
+
+sudo nvim /etc/resolv.conf
+docker run --rm alpine cat /etc/resolv.conf\
+
+docker run --rm alpine ping -c 3 ya.ru\
+
+docker run --rm alpine ping -c 3 https://ya.ru\
+
+docker run --rm alpine ping -c 3 8.8.8.8\
+
+docker run --rm alpine cat /etc/resolv.conf\
+
+docker run --rm alpine ping -c 3 8.8.8.8\
+
+sysctl net.ipv4.ip_forward\
+
+sudo iptables -t nat -L POSTROUTING -n -v\
+
+sudo nft list ruleset | grep -A5 -i masquerade\
+
+echo "" > /etc/docker/daemon.json
+sudo echo "" > /etc/docker/daemon.json
+sudo bash -c "echo '' > /etc/docker/daemon.json"
+ss restart docker
+sudo nft list ruleset | grep -A5 -i masquerade\
+
+git push
+git push
+vps
+nvim temp-deploy.log
+vps
+postgres
+systemctl status postgresql\
+
+lama status
+nvim ~/.dotfiles/dot_config/zsh/aliases
+lama status
+vps
+git add .
+git commit -m "mid-way status report added"
+git push
+git status
+git push
+git push
+git status
+git push
+lama start
+git push
+git push
+git status
+git push
+ git push
+git status
+git status
+ git push
+git status
+git add .
+git commit -m "Revert prompt variant back to EXPERT"
+git push
+git push
+git status
+git status
+git log
+git push
+git push
+uv run uvicorn main:app --reload --port 8000
+uv run uvicorn main:app --reload --port 8000
+sss docker
+gitlab-runner run
+gitlab-runner run
+gitlab-runner run
+gitlab-runner run
+vps
+X/ADLAI
+agy --dangerously-skip-permissions\
+
+agy --dangerously-skip-permissions\
+
+agy --dangerously-skip-permissions\
+
+agy --dangerously-skip-permissions\
+
+agy --dangerously-skip-permissions\
+
+fg
+rebooT
+reboot
+X/ADLAI
+git status
+git diff scripts/ingest_real_data.py
+git status
+git push
+git push
+nvim temp-ci.log
+git status
+git push
+uv run pre-commit installl
+uv run pre-commit install
+git config --unset-all core.hooksPath
+uv run pre-commit install
+git status
+git push
+git checkout main
+git pull
+vps
+ls -lah *.md
+git status
+git push
+nvim
+nvim backend/app/db/schema.sql
+git status
+git log
+git push
+git status
+git push
+cat run.log
+cat run.log
+cat run.log
+cat run.log
+tail -f run.log
+opencode-bwrap
+opencode
+opencode -c
+opencode-bwrap
+nvim .config/opencode-bwrap/bwrap.conf
+opencode-bwrap
+X/ADLAI
+opencode-bwrap
+mkdir ../tmp
+opencode-bwrap
+opencode -c
+git status
+git log
+./scripts/run_inference.sh start --gpu
+nvim ./run_docker.sh
+yay -Ss opencode
+git status
+git push
+git status
+git push
+git status
+git push
+git status
+git push
+uv run uvicorn main:app --reload --port 8000
+uv run uvicorn main:app --reload --port 8000 > run.log
+ls run.log
+cat run.log
+uv run uvicorn main:app --reload --port 8000 > run.log
+cat run.log
+uv run uvicorn main:app --reload --port 8000 > run.log
+cat run.log
+uv run uvicorn main:app --reload --port 8000 > run.log
+uv run uvicorn main:app --reload --port 8000 > run.log
+ranger
+opencode
+git status
+git add .
+git commit --amend
+git status
+git commit -m "docs: Status updates"
+git push
+git push
+git push
+git status
+git push
+git push
+git push
+git status
+opencode
+git push
+git status
+git push
+X/ADLAI
+agy --dangerously-skip-permissions\
+
+agy --dangerously-skip-permissions\
+
+agy --dangerously-skip-permissions\
+
+agy --dangerously-skip-permissions\
+
+gitlab-runner run --syslog
+nvim backend/app/db/schema.sql
+nvim ~/.gitlab-runner/config.toml
+gitlab-runner run --syslog
+nvim ~/.gitlab-runner/config.toml
+gitlab-runner run --syslog
+nvim ~/.gitlab-runner/config.toml
+gitlab-runner run --syslog
+vps
+DENSE_BACKEND=pgvector uv run python scripts/ingest_real_data.py
+ps -aux | grep llama-ser
+cat /proc/cpuinfo
+nvim ~/.dotfiles/dot_config/zsh/aliases
+vps
+git push
+vps
+vps
+vps
+vps
+opencode -c
+vps
+git status
+git diff
+git add .
+git commit -m "vps: ensure inference and app starts on reboot and warms up properly"
+git push
+opencode
+agy --dangerously-skip-permissions\
+
+git status
+nvim main.py
+ss -tlnp
+ss -tlp
+ss -tulp
+ss -tl
+ps -aux | grep uvic
+agy --dangerously-skip-permissions\
+
+git diff
+git add .
+git commit --amend
+git pull
+git rebase --continue
+git add .
+git rebase --continue
+git push
+agy --dangerously-skip-permissions\
+
+X/ADLAI
+agy --dangerously-skip-permissions\
+
+vps
+vps
+uv run uvicorn main:app --reload --port 8000 > run.log
+uv run uvicorn main:app --reload --port 8000 > run.log
+uv run uvicorn main:app --reload --port 8000 > run.log
+uv run uvicorn main:app --reload --port 8000 --host 0.0.0.0
+sleep 120 && poweroff
+git status
+git add .
+git commit -m "ci: New pipeline architecture \
+"
+git push
+git add .
+git commit -m "ci: New pipeline architecture - simplify smoke-eval"\
+
+git push
+git push
+lama status
+lama restart --cpu
+DENSE_BACKEND=pgvector uv run python scripts/ingest_real_data.py
+ps -aux | grep llama-ser
+gitlab-runner run --syslog
+git status
+agy
+git status
+agy --dangerously-skip-permissions\
+
+agy --dangerously-skip-permissions\
+
+agy --dangerously-skip-permissions\
+
+git status
+git log
+rm /tmp/* -rf
+opencode
+X/ADLAI
+opencode
+opencode
+git push -u origin story-101-phase2-precommit-hook
+git push -u origin story-101-phase3-ci-unit-authoritative
+git status
+git push
+git status
+git push -u origin story-101-phase4-qa-ritual-contract
+git checkout main
+git push
+git checkout story-101-phase4-qa-ritual-contract
+ps -aux | grep 5432
+ss restart postgresql.service
+ss status postgresql.service
+git checkout main
+git pull
+git log
+uv sync --frozen
+uv sync
+uv run pytest --help | rg -i testmon 
+printf '\n_ = None  # probe-impacted\n' >> backend/app/services/verifier.py\
+
+git status
+git add .
+git commit -m "test: probe impacted (STORY-101)"
+git reset --hard HEAD~1
+printf '\n- probe\n' >> adlai-vault/00_Project/DECISIONS.md  
+git add .
+git commit -m "test: probe impacted (STORY-101)"
+git reset --hard HEAD~1
+git status
+git push
+sed -i 's/        return "\[REF\]"/        return m.group(0)    # PROBE: stop masking/' backend/app/services/verifier.py\
+
+git add .
+git commit -m "test: probe impacted (STORY-101)"
+git reset --hard HEAD~1
+git pull
+git status
+git log
+X/ADLAI
+agy --dangerously-skip-permissions\
+
+git status
+git push
+curl -fsSL https://code.kimi.com/kimi-code/install.sh | bash
+nvim ~/.zshrc
+rm .zshrc
+source ~/
+kimi
+kimi
+X/ADLAI
+kimi
+vim ~/.qwen/settings.json
+vim ~/.qwen/settings.json
+vim ~/.qwen/settings.json
+ranger
+ls -lah *.md
+git add adlai-vault && git commit -m "chore(adlai-vault): close STORY-86, archive MAPPING_RETRIEVAL spec,\
+rework STORY-88/97, transfer retrieval contract to STORY-100 §5"
+adlai-vault/10_Issues/00_Backlog/
+git mv STORY-84-Scoring-Anomaly-and-Retrieval-Investigation.md ../04_Done
+git mv STORY-85-Corpus-Enrichment-Remaining-Laws.md ../04_Done
+git status
+git add .
+git commit -m "docs: Close obsolete stories"
+ps -aux | grep llama-ser
+ps -aux | grep 8010
+git status
+cat QWEN.md
+git status
+..
+vim .git/modules/ADLAI/hooks/pre-commit.legacy
+nvim
+nvim .git/modules/ADLAI/hooks/pre-commit.legacy
+nvim .git/modules/ADLAI/hooks/pre-commit
+git status
+git push
+printf '\n- probe\n' >> adlai-vault/00_Project/DECISIONS.md  
+git commit -m "docs: Close obsolete stories"
+git reset --hard HEAD
+git pull
+git mv adlai-vault/10_Issues/01_To_Do/STORY-95-Local-Environment-Toolchain-and-Inference-Stack-Recovery.md adlai-vault/10_Issues/04_Done/
+git mv adlai-vault/10_Issues/01_To_Do/STORY-98-Eval-Revival-MVP-Smoke-Set-and-VPS-Smoke-on-Deploy.md adlai-vault/10_Issues/04_Done/
+nvim ~/.config/zsh
+nvim ~/.zshenv.secrets
+git status
+git push
+git status
+sudo systemctl status postgresql
+uv run python backend/tests/eval/run_eval.py --workers=6 --start=0
+uv run python backend/tests/eval/run_eval.py --workers=6 --start=0
+uv run python backend/tests/eval/run_eval.py --workers=6 --start=0
+ps -aux | grep 8010
+ps -aux | grep llama-ser
+cat .env
+ps -aux | grep llama-ser
+cat .env | grep CONTEXT
+uv run python backend/tests/eval/run_eval.py --workers=3 --start=0
+uv run python backend/tests/eval/run_eval.py --workers=3 --start=7 --limit 4
+git push
+docker images
+docker prune
+docker system prune -a --filter "until=168h"
+docker system prune -a --filter "until=48h"
+gitlab-runner run --syslog
+lama restart --gpu
+lama status --gpu
+uv run uvicorn main:app --reload --port 8000 --host 0.0.0.0
+lama status --gpu
+lama restart --gpu
+ps -aux | grep llama-ser
+uv run uvicorn main:app --reload --port 8000 --host 0.0.0.0
+lama restart --gpu
+ps -aux | grep llama-ser
+nvim .env
+lama restart --gpu
+uv run uvicorn main:app --reload --port 8000 --host 0.0.0.0
+curl -fsSL https://qwen-code-assets.oss-cn-hangzhou.aliyuncs.com/installation/install-qwen-standalone.sh | bash
+X/ADLAI
+qwen
+qwen
+qwen -c
+X/ADLAI
+qwen -c
+sudo systemctl status postgresql
+uv run uvicorn main:app --reload --port 8000 --host 0.0.0.0
+ls -la ~/.local/bin
+ls -la ~/.local/bin | grep rvc
+ls -la ~/.local/bin | grep rvc
+git stash
+ls -la ~/.local/bin | grep rvc
+../TEAMFLOW/RVC
+ls
+cat README.md
+cat README.md
+opencode
+nvim
+git remote set origin git@gitlab.goavisa.com:ADLAI/adlai.git
+git remote add origin git@gitlab.goavisa.com:ADLAI/adlai.git
+git remote set-url origin git@gitlab.goavisa.com:ADLAI/adlai.git
+git push
+git remote set-url origin git@gitlab.goavisa.com:ADLAI/adlai.git
+git push
+../TEAMFLOW
+git remote get origin
+git remote get-url origin
+git remote set-url origin git@gitlab.goavisa.com:ADLAI/workflow.git
+git push
+git status
+git commit -a
+git commit -a
+git push
+git push
+qwen
+agy
+X/ADLAI
+git status
+git com
+git commit -a
+git status
+git push
+git add .
+git commit -a
+git status
+git commit -m "ci: fix tests, add wonderful Essay about different work approaches "
+git push
+git status
+git status
+git diff
+git mv adlai-vault/00_INBOX/Gemini\'s\ reply\ to\ STORY-106.md adlai-vault/40_DECIDE/
+git status
+git add .
+git add .
+git commit -m "vault: incoming proposals"
+git push
+rm tmp/* -rf
+ls -lah
+git rm X-files/
+git rm X-files/ -r
+git rm X-files/ -r -f
+git rm .obsidian/ -rf
+git push
+cd ADLAI
+git push
+cd ../TEAMFLOW
+git status
+cd RVC
+git status
+../../ADLAI
+agy --dangerously-skip-permissions\
+
+agy --dangerously-skip-permissions -c\
+
+../../ADLAI
+agy --dangerously-skip-permissions -c\
+
+git status
+git push
+../TEAMFLOW/RVC
+qwen
+opencode
+../../ADLAI
+AGENT=D opencode run --model "opencode/big-pickle" --pure "$(bash adlai-vault/10_CONTEXT/session_bootstrap.sh STORY-106)"
+yay -S pinta
+X/ADLAI
+ranger
+agy --dangerously-skip-permissions\
+
+opencode
+git push -u origin constitution-v6
+git push
+ls -lah
+ranger
+ranger
+git add .
+git commit -m "cleanup: remove deprecated/obsolete"
+git commit -a
+git push
+ranger
+git push
+git push
+opencode
+agy --dangerously-skip-permissions\
+
+X/ADLAI
+agy --dangerously-skip-permissions\
+
+git log
+git status
+git diff
+git status
+git add . && git commit -m "fix: reformat letter text"
+git add . && git commit -a "fix: reformat letter text [skip ci]"
+git add . && git commit -m "fix: reformat letter text [skip ci]"
+git log
+git commit --help
+git commit --amend
+git push
+rvc plate
+rvc list
+rvc story-100
+rvc issue story-100
+rvc issue STORY-100
+rvc context STORY-100
+X/ADLAI
+qwen
+qwen
+qwen
+DENSE_BACKEND=pgvector uv run python scripts/ingest_real_data.py
+uv run python backend/tests/eval/run_eval.py --workers=3
+cat data/eval/latest_results.json
+git status
+git log
+git status
+git log
+git push
+../TEAMFLOW/RVC
+which rvc
+ls .local/bin/rvc
+ls ~/.local/bin/rvc
+ls ~/.local/bin/rvc -lah
+opencode
+opencode
+opencode -c
+yay -S opencode
+pacman -Ss opencode
+git status
+git push
+uv run python backend/tests/eval/run_eval.py --workers=3
+git push
+git log
+git log
+git push
+git log
+git status
+git reset --hard HEAD
+git status
+git status
+../TEAMFLOW/RVC
+git log
+git status
+git log
+git status
+git status
+git push
+git status
+pre-commit
+uv run pre-commit 
+ranger
+qwen
+~/.qwen
+insights
+ls -lah
+git status
+rvc create Eval frontier model with sovereign prompt
+rvc create "Eval frontier model with sovereign prompt"
+rvc help
+../../ADLAI
+uv run python backend/tests/eval/run_eval.py --workers=3
+ranger
+git status
+rm STORY-109.md
+git add .
+git s
+git status q
+git status 
+git commit --amend
+git pull
+cd adlai-vault
+mkdir 00_INBOX
+ls -lah
+rvc create TEMP-STORY-1
+git log
+git reset --hard bca09810d06bfa11e364fcc9667ed22c3b3311b7
+ls -lah
+ls -lah
+ls -lah
+ls -lah
+ls -lah
+ls -lah
+ls -lah
+ls -lah
+ls -lah
+ls -lah
+ls -lah
+ls -lah
+ls -lah
+ls -lah
+ls -lah
+ls -lah
+ls -lah
+rvc plate
+ranger
+rvc plate
+ls -lah
+ls -lah
+ls -lah
+ls -lah
+ls -lah
+ls -lah
+ls -lah
+ls -lah
+ls -lah
+ls 00_INBOX
+ls 00_INBOX
+ls 10_CONTEXT
+git mv 10_CONTEXT/ROADMAP.md 90_ARCHIVE/superseded/
+../TEAMFLOW/RVC
+../../TEAMFLOW/RVC
+opencode -c
+opencode 
+htop
+nvim AGENTS.md
+vps
+nvim deleteme
+cat deleteme| grep Retrieval
+rm deleteme
+git status 
+git diff
+git add .
+git commit --amend
+git push
+rvc plate
+rvc plate
+rvc plate
+rvc plate
+opencode 
+agy --dangerously-skip-permissions\
+
+opencode web
+opencode
+../TEAMFLOW/RVC
+opencode
+ranger
+opencode
+rm tmp/* -rf
+rm /tmp/* -rf
+sudo rm /tmp/* -rf
+../../ADLAI
+opencode
+rm .opencode -rf
+ranger
+opencode
+qwen
+qwen
+..
+ranger
+ADLAI
+qwen
+qwen
+lama status --gpu
+lama start --gpu
+uv run uvicorn main:app --reload --port 8000 --host 0.0.0.0
+lama restart --gpu
+uv run uvicorn main:app --reload --port 8000 --host 0.0.0.0
+lama restart --gpu
+uv run uvicorn main:app --reload --port 8000 --host 0.0.0.0
+gitlab-runner run --syslog
+gitlab-runner run --syslog
+git log
+git status 
+git add .
+git commit -m "docs: Added new story, draft report, minor changes [skip ci]"
+git push
+git status 
+reboot
+cat ~/.zshenv.secrets
+rvc issue STORY-120
+rvc context STORY-120
+rvc issue STORY-33
+rvc issue STORY-033
+rvc plate
+X/ADLAI
+opencode
+opencode
+git status 
+git diff
+git reset --soft
+git diff
+git reset --hard
+git diff
+../TEAMFLOW/RVC
+git status 
+git push
+ranger
+rvc help
+ls ~/.local/bin/rvc -la
+rvc create help
+rvc context help
+rvc context --reindex
+rvc context STORY-033 --reindex
+rvc context STORY-033
+ls -lah
+ls -lah rvc-vault
+nvim rvc-vault/.rvc-context-cache.json
+../../ADLAI
+rvc context STORY-100 --reindex
+rvc context STORY-100
+rvc context STORY-117
+rvc context STORY-32
+rvc context STORY-39
+plate
+rvc plate
+rvc context STORY-121
+rvc plate
+rvc context STORY-1
+rvc context STORY-34
+opencode
+opencode
+htop
+rm /tmp/* -rf
+sudo rm /tmp/* -rf
+htop
+sudo htop
+~
+vim .config/opencode/opencode.jsonc
+vim .config/opencode/opencode.jsonc
+opencode
+rvc plate
+DENSE_BACKEND=pgvector uv run python scripts/ingest_real_data.py
+nvim data/corpus/cma.json
+DENSE_BACKEND=pgvector uv run python scripts/ingest_real_data.py
+DENSE_BACKEND=pgvector uv run python scripts/ingest_real_data.py
+nvim data/corpus/cma.json
+DENSE_BACKEND=pgvector uv run python scripts/ingest_real_data.py
+rvc plate
+rvc get STORY-112
+rvc get STORY-111
+rvc get STORY-113
+rvc plate
+rvc get STORY-117
+../TEAMFLOW/RVC
+rvc issue list
+rvc issue list next
+agy --dangerously-skip-permissions\
+
+rvc issue 022
+rvc issue STORY-022
+rvc issue list next
+rvc issue STORY-030
+agy --dangerously-skip-permissions\
+
+git status 
+git add .
+git commit -m "docs: Added story on rvc context update"
+git push
+../
+git status 
+nvim
+nvim
+rvc help
+rvc doctor help
+rvc doctor --help
+ls
+cat ~/.local/bin/rvc
+cat ~/.local/bin/rvc | wc -l
+RVC
+agy --dangerously-skip-permissions\
+
+rvc context STORY-033
+rvc plate
+git status 
+git push
+git push -u origin feature/sqlite-context-cache
+git branch
+git checkout refactor/cli-modularization
+git push -u origin refactor/cli-modularization
+git checkout main
+git checkout master
+git push
+git checkout feature/sqlite-context-cache
+rvc doctor
+git checkout master
+git branch --help
+git branch prerefactoring-state
+git branch -m prerefactoring-state
+git branch -m prerefactoring-state --force
+git push -u origin prerefactoring-state
+git checkout feature/sqlite-context-cache
+../../ADLAI/\\
+
+git status 
+opencode help
+opencode --help
+killall opencode
+killall opencode
+gitlab-runner run --syslog
+DENSE_BACKEND=pgvector uv run python scripts/ingest_real_data.py
+uv run scripts/migrate.py
+lama restart --gpu
+uv run uvicorn main:app --reload --port 8000 --host 0.0.0.0
+lama stop
+../../ADLAI
+qwen
+qwen
+nvtop
+sudo pacman -S rocm-hip-sdk rocblas\
+
+grep -iE 'ffmpeg|avcodec|avformat|avutil|swresample' build/CMakeCache.txt\
+
+sudo pacman -Rns ffmpeg4.4\
+
+~/X/ADLAI
+rvc create "Revive admin app"
+nvim adlai-vault/00_INBOX/STORY-123-Revive-admin-app.md
+opencode
+git status 
+git diff
+git status 
+git stash
+rm adlai-vault/10_CONTEXT/ROADMAP.md
+git status
+git push
+git checkout main
+git pull
+git fetch
+git pull
+git log
+nvim Salwa
+mv Salwa adlai-vault/00_INBOX
+opencode
+git push
+git lgo
+git log
+agy --dangerously-skip-permissions\
+
+git status 
+git rm adlai-vault/.rvc-context-cache.sqlite
+git rm adlai-vault/.rvc-context-cache.sqlite -f
+git status 
+git restore --staged
+git restore --staged .
+git status 
+git log
+yay -Ss git
+yay -S gitlab-shell gitg
+git checkout -f spoiled
+git checkout -c spoiled
+git branch -c spoiled
+git checkout -c spoiled
+git checkout spoiled
+git checkout main
+git reset --hard a5623320b6f32c10ebac78adfce354c97fdc0632
+git status 
+git checkout spoiled
+git push -u origin spoiled
+opencode -c
+opencode -c
+fg
+killall opencode
+killall opencode
+agy --dangerously-skip-permissions\
+
+X/ADLAI
+git status 
+uv run pre-commit pytest --testmon
+uv run pytest --testmon
+uv run pytest backend/tests/unit -v
+ uv run pytest backend/tests/unit --testmon 
+touch backend/app/core/new_module.py && git add backend/app/core/new_module.py
+git commit -m "test"
+git branch -c ling-branch
+git push -u origin ling-branch
+git checkout ling-branch
+git reset --hard 1347d52
+git branch -c feature/story-123
+git push -u origin feature/story-123
+git checkout feature/story-123
+git checkout main
+git reset --hard origin
+git checkout feature/story-123
+git commit -m "messing with precommit"
+git log
+git status 
+git push
+qwen
+~/X/ADLAI
+git status 
+uv run ruff check --fix\
+
+uv run ruff check --fix\
+
+git push
+git log
+ranger
+uv run python scripts/sync_corpus_release.py --tag v2026.09.17 --ingest
+X/ADLAI
+uv run python scripts/sync_corpus_release.py --tag v2026.09.17 --ingest
+git status 
+git log
+git log
+git push
+qwen
+opencode
+killall opencode
+opencode --standalone
+X/ADLAI
+agy --dangerously-skip-permissions -c\
+
+lama restart --gpu
+uv run uvicorn main:app --reload --port 8000 --host 0.0.0.0
+whisper-server -m ~/.MODELS/ggml-small.bin --port 7777 --host 127.0.0.1
+Q
+whisper-server -m ~/.MODELS/ggml-small.bin --port 7777 --host 127.0.0.1
+cd whisper.cpp
+whisper-server -m ~/.MODELS/ggml-small.bin --port 7777 --host 127.0.0.1
+yay -Ss libav
+yay -Ss libavformat
+yay -S ffmpeg4
+yay -S ffmpeg4.4
+yay -Ss libavformat
+whisper-server -m ~/.MODELS/ggml-small.bin --port 7777 --host 127.0.0.1
+git pull
+whisper-server -m ~/.MODELS/ggml-small.bin --port 7777 --host 127.0.0.1
+cmake -B build -DGGML_HIP=1 -DAMDGPU_TARGETS="gfx1201"\
+
+cmake -B build -D WHISPER_COMMON_FFMPEG=yes\
+
+yay -Ss hip
+yay -S hipblaslt
+sudo pacman -Sy rocm-opencl-runtime rocminfo
+cmake -B build -DWHISPER_VITISAI=1\
+
+cmake -B build -DGGML_HIP=1 -DAMDGPU_TARGETS="gfx1201"\
+
+cmake -B build -DGGML_HIP=OFF\
+
+cmake -B build \\
+  -DGGML_HIP=OFF \\
+  -DGGML_VULKAN=OFF \\
+  -DWHISPER_VULKAN=OFF \\
+  -DWHISPER_VITISAI=OFF \\
+  -DCMAKE_BUILD_TYPE=Release\
+
+cmake --build build -j"$(nproc)"\
+
+cmake -B build \\
+  -DGGML_HIP=OFF \\
+  -DGGML_VULKAN=OFF \\
+  -DWHISPER_VITISAI=OFF \\
+  -DWHISPER_FFMPEG=ON \\
+  -DCMAKE_BUILD_TYPE=Release
+cmake --build build -j"$(nproc)"\
+
+whisper-server -m ~/.MODELS/ggml-small.bin --port 7777 --host 127.0.0.1
+gitlab-runner run --syslog
+uv run python backend/tests/eval/run_eval.py --workers=3 --lang=en
+cat ~/.zshenv.secrets
+rvc get STORY-100
+lama restart --gpu
+opencode --standalone
+git status 
+git status 
+git push
+git checkout main
+git pull
+git rebase --continue
+git rebase --continue
+git push
+git status 
+git status 
+rm AGENTS.md
+mv adlai-vault/10_CONTEXT/reports/STATUS_18-09-2026.md ~
+sss postgresql
+ss start postgresql
+sss postgresql
+cat app.log
+nvim ci.log
+ls -lah *.log
+X/ADLAI
+kimi -c
+git status 
+git status 
+git push
+uv run python backend/tests/eval/run_eval.py --workers=3 --lang=en
+uv run python backend/tests/eval/run_eval.py --workers=3 --lang=ar
+uv run python backend/tests/eval/run_eval.py --workers=3 --lang=ar
+nvim eval-ar.log
+uv run python backend/tests/eval/run_eval.py --workers=3 --lang=en
+uv run python backend/tests/eval/run_eval.py --workers=3 --lang=en
+cat app-en.log
+lama restart --gpu
+htop
+cat app-en.log
+cat app-en.log
+cat app-en.log
+cat app-en.log
+cat app-en.log
+uv run python backend/tests/eval/run_eval.py --workers=3 --lang=en
+nvim eval-en.log
+git status 
+git status 
+git push
+git pull
+git status 
+git status 
+git push
+kimi
+rvc create --help
+opera
+yay -Sy opera
+opera
+sudo pacman -Suyy
+reboot
+opera
+yay -Sy opera
+opera
+sudo pacman -Suyy
+reboot
+X/ADLAI
+opencode --standalone
+killall opencode
+git status 
+git diff
+git log
+git push
+git fetch
+../TEAMFLOW/RVC
+ls
+mkdir TestProject
+cd TestProject
+ls
+../TestProject-rvc
+ls
+..
+mkdir Lexx
+cd Lexx
+touch LexxSrcFiles
+touch LexxSrcFiles2
+rvc init --help
+rvc init
+ls
+ranger
+rvc init --help
+rvc init lexx-vault
+ls
+ls -lah
+rvc init lexx-vault2 --tree
+rvc init --tree lexx-vault2
+rvc init --tree new-vault
+rvc init --tree newvault
+ranger
+rvc feedback
+rvc plate
+rvc init
+0-vault
+00_INBOX
+vim FEEDBACK-rvc
+rvc feedback FEEDBACK-rvc
+../../
+rvc feedback 0-vault/00_INBOX/FEEDBACK-rvc
+rvc feedback 0-vault/00_INBOX/FEEDBACK-rvc.md
+ls
+0-vault/00_INBOX
+ls
+mv FEEDBACK-rvc FEEDBACK-rvc.md
+rvc feedback FEEDBACK-rvc.md
+../../
+ls
+ls 0-vault/00_INBOX
+rvc feedback 0-vault/00_INBOX/FEEDBACK-rvc.md
+pwd
+rvc feedback 0-vault/00_INBOX/FEEDBACK-rvc.md
+rvc plate
+ranger
+..
+rvc init
+ls
+rvc start BUG-01
+rvc BUG-01 start
+rvc get BUG-01 start
+rvc issue BUG-01 start
+rvc issue BUG-01 done
+Lexx
+ls
+..
+git status 
+rm Lexx -rf
+rvc init
+git status 
+rm /tmp/* -rf
+sudo rm /tmp/* -rf
+git pull
+git status 
+~/X/ADLAI
+rvc init
+ls
+git fetch
+../TEAMFLOW/RVC
+git fetch
+vim .git/config
+git fetch
+git pull --rebase
+git log | grep 8303c94
+git log 
+git push
+git push
+ls ~/.ssh/agent
+..
+X/TEAMFLOW/RVC
+git push
+git fetch
+opera
+opera --user-data-dir=/tmp/opera-test\
+
+opera
+pkill opera
+pkill opera
+pkill opera
+killall opera
+~
+mv .config/opera .config/opera.BACKUP
+mv .cache/opera .cache/opera.BAK
+ranger
+git clone https://gitlab.goavisa.com/ADLAI/corpus-ingestion.git _CORPUS-REPO
+git clone git@gitlab.goavisa.com:ADLAI/corpus-ingestion.git _CORPUS-REPO
+nvim .gitignore
+nvim .gitignore
+ranger
+qwen
+X/ADLAI
+opencode --standalone
+fg
+rvc search "Salwa eval"
+rvc search "Salwa"
+rvc search "smoke-test"
+rvc search "smoke"
+opencode acp
+opencode help
+opencode --help
+killall opencode
+opencode acp
+opencode server
+opencode --server
+opencode pair
+opencode acp
+git branch
+git checkout feature/story-125-eval-ssot
+git push -u origin feature/story-125-eval-ssot
+git checkout main
+git log
+git push -u origin feature/story-125-eval-ssot
+git checkout main
+git checkout feature/story-125-eval-ssot
+downgrade opera
+sudo downgrade opera
+X/ADLAI
+git log
+git pull
+opencode --standalone
+X/ADLAI
+opencode --standalone
+touch test
+git add ,
+git add .
+git commit -m "trigger ci"
+git push
+rm test
+git add .
+cat .env
+cat .env.example
+cat .env.example
+yay -S chromium
+chromium
+ls data/eval
+gitlab-runner run --syslog
+cat .env.example
+qwen
+qwen
+git checkout main
+git branch -c main-bak
+git push -u origin main-bak
+git checkout main
+git reset --hard origin
+opencode --standalone -c
+rvc plate
+opencode --standalone
+kimi
+git status 
+git status 
+git status 
+git commit --amend
+git push
+git plate
+rvc plate
+git status 
+git remote get-url origin
+git add vault/*
+git add .
+git rm frontend
+git rm frontend/
+git status 
+git rm prod-dump-defaultdb-202604180713.sql
+git rm prod-dump-defaultdb-202604180713.sql -f
+ls
+ls -lah
+mv .roo .AI-IGNORE-IT
+git rm .roo
+git rm .roo -r
+ls -lah
+git add .
+git commit -m "New vault structure added"
+git push
+cd backend
+git status 
+../frontend
+git status 
+git add .
+git commit -m "commit uncommitted"
+git commit -m "commit uncommitted" --no-verify
+git push
+../backend
+git push
+opencode
+opencode
+opencode -c
+opencode -c
+opencode -c
+rvc plate
+git status 
+backend
+git status 
+git diff
+git log
+rvc issue STORY-06 done
+rvc plate
+git status 
+git push
+../frontend
+git push
+..
+git push
+git remote add origin git@github.com:massage-kg/vault.git\
+
+git push
+git push -u origin master
+vercel
+sudo pacman -S vercel
+sudo pacman -Ss vercel
+yay -Ss vercel
+yay -S vercel
+npm i -g vercel
+vercel
+vercel login
+vercel
+vercel whoami
+qwen --resume
+git staatus
+git status
+vps
+git log
+git push
+~/Q/massage.kg/backend
+git push -u origin feat/epic-01-multi-network-tenancy
+../frontend
+git branch -c feat/epic-01-multi-network-tenancy
+git checkout feat/epic-01-multi-network-tenancy
+git push -u origin feat/epic-01-multi-network-tenancy
+git push -u origin feat/epic-01-multi-network-tenancy
+git status 
+../backend
+git status 
+~/X/ADLAI
+nvim app.log
+lama restart --gpu
+rvc plate
+rvc plate
+git status 
+git push
+git diff
+git reset --hard HEAD
+git status 
+ranger
+git status 
+git add .
+git commit -m "docs: On behalf of repo owner exceptionally deleting falsey reports"
+git push
+uv run python backend/tests/eval/run_eval.py --workers=3 --lang=ar
+tail -f main.log
+cp main.log main-10.log
+git status 
+git diff
+git status 
+git restore data/eval/v3_debug.jsonl
+git status 
+git log
+nvim eval-10.log
+git status 
+git push
+qwen
+qwen
+git status 
+frontend
+git status 
+rvc plate
+rvc get Task-Merge
+rvc get TASK-Merge
+rvc plate
+rvc get ISSUE-147
+git log
+git push
+git push --set-upstream origin fix/story-12-network-admin-tenancy
+git push
+git push --set-upstream origin fix/story-12-network-admin-tenancy
+git push --set-upstream origin fix/story-12-network-admin-tenancy
+git checkout main
+git checkout master
+git push
+agy --dangerously-skip-permissions\
+
+agy --dangerously-skip-permissions -c\
+
+~/Q/massage.kg
+agy --dangerously-skip-permissions\
+
+agy --dangerously-skip-permissions -c\
+
+opencode
+opencode
+opencode -c
+opencode
+backend
+ uv run ruff check .\
+  uv run isort --check-only .\
+  uv run mypy apps interfaces project\
+  uv run bandit -r apps interfaces project -n 5
+../frontend
+yarn build
+git push
+git push
+gh
+sudo pacman -S gh
+yay -Ss github
+yay -Ss github-cli
+yay -S github-cli
+gh auth
+gh login
+gh
+gh auth login
+../backend
+gh pr view 271
+../frontend
+git push
+git branch -c feat/epic-01-multi-network-tenancy2
+git checkout feat/epic-01-multi-network-tenancy2
+git push -u origin feat/epic-01-multi-network-tenancy2
+../backend
+git status 
+git log
+../frontend
+git push -u origin feat/epic-01-multi-network-tenancy2
+../backend
+git status
+git checkout stage
+git push
+../frontend
+git push -u origin fix/x-network-id-every-request-main
+cd backend
+git push -u origin feat/story-13-unify-user-profiles-groups
+git push -u origin feat/story-13-unify-user-profiles-groups
+git status
+nvim 0-vault/30_ACTIVE/STORY-13-Униу�икау�иу�-модели-полу�зователей-Account-+-проу�или-EmployeeClient-+-Groups.md
+git add .
+git commit --amend
+nvim 0-vault/00_INBOX/STORY-14-Unified-Team-UI-team-slice,-settings-view,-member-forms-\(frontend-for-user-model-unification\).md
+opencode
+opencode help
+opencode --help
+opencode
+rvc plate
+uv run python backend/tests/eval/run_eval.py --workers=3 --path data/eval/v3_debug.jsonl
+uv run python backend/tests/eval/run_eval.py --workers=3 --path data/eval/v3_debug.jsonl
+uv run python backend/tests/eval/run_eval.py --workers=3 --path data/eval/v3_debug.jsonl
+ls ~/ADL
+cat ~/ADL
+python -c "import secrets, base64;\
+       print(base64.b64encode(secrets.token_bytes(32)).decode())"
+python -c "import secrets, base64;\
+print(base64.b64encode(secrets.token_bytes(32)).decode())"
+vps
+python -c "import secrets, base64;\
+print(base64.b64encode(secrets.token_bytes(32)).decode())"
+vim .env
+git push
+gitlab-runner run --syslog
+backend
+cat .env
+cat .env | grep DATABASE
+frontend
+git status
+git push -u origin fix/unclickable-error-overlay
+git log
+../backend
+git status
+poweroff
+rvc get STORY-15
+lama restart --gpu
+uv run python backend/tests/eval/run_eval.py --workers=3  --path data/eval/v3_debug.jsonl
+opencode web
+opencode web
+opencode  web
+opencode run web
+opencode --help
+opencode serve
+cat backend/.env
+qwen
+../backend
+uv run manage.py runserver
+uv run manage.py runserver -p 8888
+uv run manage.py runserver :8888
+uv run manage.py runserver 0.0.0.0:8888
+uv run manage.py runserver 0.0.0.0:8888
+uv run manage.py runserver 0.0.0.0:8888
+uv run manage.py runserver 0.0.0.0:8888
+uv run manage.py runserver 0.0.0.0:8888
+uv run manage.py migrate
+uv run manage.py runserver 0.0.0.0:8888
+uv run manage.py migrate
+uv run manage.py runserver 0.0.0.0:8888
+uv run manage.py migrate
+uv run manage.py runserver 0.0.0.0:8888
+uv run manage.py migrate
+uv run manage.py runserver 0.0.0.0:8888
+./run_admin.sh
+./run_admin.sh
+./run_admin.sh
+./run_admin.sh
+./run_admin.sh
+git status 
+git push -u origin fix/story-12-network-admin-branch-scoping
+git push -u origin fix/story-12-network-admin-branch-scoping
+git push -u origin fix/story-12-network-admin-branch-scoping
+git push -u origin fix/story-12-network-admin-branch-scoping
+../frontend
+git status 
+git push -u origin fix/story-12-network-admin-booking-branches
+git status 
+git push -u origin fix/story-12-network-admin-booking-branches
+git push
+git push
+git checkout main
+git pull
+git pull
+git pull
+git status
+git push
+git push
+git checkout main
+git pull
+../backend
+git checkout main
+git pull
+uv run python backend/tests/eval/run_eval.py --workers=3 --lang=en
+uv run uvicorn main:app --reload --port 8000 --host 0.0.0.0
+uv run uvicorn main:app --reload --port 8000 --host 0.0.0.0
+killall uv
+killall uv
+killall uv
+uv run uvicorn main:app --reload --port 8000 --host 0.0.0.0
+uv run uvicorn main:app --reload --port 8000 --host 0.0.0.0 > app.log
+uv run uvicorn main:app --reload --port 8000 --host 0.0.0.0 > app.log
+uv run uvicorn main:app --reload --port 8000 --host 0.0.0.0 > main.log
+uv run uvicorn main:app --reload --port 8000 --host 0.0.0.0 > main.log
+uv run uvicorn main:app --reload --port 8000 --host 0.0.0.0 > main.log
+uv run uvicorn main:app --reload --port 8000 --host 0.0.0.0 > main.log
+agy --dangerously-skip-permissions\
+
+frontend
+yarn dev
+yarn dev
+kimi
+kimi
+sss postgresql
+ss start postgresql
+git log
+git status
+uv sync
+git status
+git reset --hard origin
+git status
+git pull
+git status
+uv ruff check .
+uv run ruff check .
+[uv sync --locked --all-extras --dev
+uv sync --locked --all-extras --dev
+uv run ruff check .
+uv run ruff check . --fix
+python -v
+uv run ruff check . --fix
+ls
+ranger
+uv run ruff check . --fix
+uv run ruff check . 
+git diff
+git status
+git add .
+git commit -m "tormoz blyat"
+git push
+git checkout main
+git pull
+uv run ruff check . 
+cat pyproject.toml
+vercel poull
+vercel pull
+cat .vercel/project.json
+cat README.md
+ls -lah .md
+ls -lah *.md
+ranger
+git checkout stage
+git checkout main
+../frontend
+gf.sh
+git checkout main
+git fetch
+git pull
+../backend/gf.sh
+../backend/gf.sh stage
+code .
+git push
+git checkout fix/build-warnings
+git checkout fix/build-warnings
+git pull
+../
+git status
+echo "dump-massage.kg-202609201009/" >> .gitignore
+git status
+nvim .gitignore
+git status
+git add .
+git commit -m "docs: updated"
+git push
+git branch -c master
+git checkout -c master
+git log
+git push -u origin fix/story-12-network-admin-tenancy
+git checkout master
+git pull
+git status
+frontend
+git checkout main
+git pull
+../backend/gf.sh stage
+../frontend
+../backend/gf.sh stage
+git checkout main
+git push
+git pull
+git checkout main
+../backend/gf.sh stage
+../
+git submodule add -f git@github.com:massage.kg/frontend.git frontend 
+git submodule add -f git@github.com:massage.kg/backend.git backend 
+git add .
+git commit -m "submodules added"
+git push
+git pull
+cat package.json
+yarn upgrade react@18
+yarn upgrade next
+yarn upgrade next@16
+git log
+git push
+git checkout main
+git pull
+git status
+git diff
+frontend
+cat package.json
+vim eslint.config.mjs
+yarn upgrade ant-design
+adb
+adb device
+adb devices
+adb sideload
+~/X/ADLAI
+rvc create "Process latest corpus updates"
+Downloads
+adb sideload ./EvolutionX-17.0-20260802-miatoll-12.0-Unofficial.zip
+ss start postgresql
+rvc issue STORY-122 defer
+~/Downloads
+adb push ./EvolutionX-17.0-20260802-miatoll-12.0-Unofficial.zip
+adb push ./EvolutionX-17.0-20260802-miatoll-12.0-Unofficial.zip /sdcard1/ROMS/
+frontend
+vercel
+vercel build
+git status
+git diff
+git status
+ git commit -m "chore: upgrade frontend to Next 16 and trim deploy pipeline" -m "- RatingStars: add \"use client\" (server-component createContext crash)\
+- tsconfig: adopt Next 16 required jsx react-jsx + dev route types\
+- align @next/eslint-plugin-next / eslint-config-next to 16.3.5\
+- next.config: drop obsolete eslint key and images.domains\
+- prebuild: format + type checks only (no auto-fix on deploy)\
+- prepare: skip husky when .git is absent (Vercel)\
+- replace tamga-deploy.json writer with Telegram-only notify script\
+- ignore generated next-pwa artifacts in prettier/vercel ignore"
+code .
+nvim package.json
+git add package.json
+ git commit -m "chore: upgrade frontend to Next 16 and trim deploy pipeline" -m "- RatingStars: add \"use client\" (server-component createContext crash)\
+- tsconfig: adopt Next 16 required jsx react-jsx + dev route types\
+- align @next/eslint-plugin-next / eslint-config-next to 16.3.5\
+- next.config: drop obsolete eslint key and images.domains\
+- prebuild: format + type checks only (no auto-fix on deploy)\
+- prepare: skip husky when .git is absent (Vercel)\
+- replace tamga-deploy.json writer with Telegram-only notify script\
+- ignore generated next-pwa artifacts in prettier/vercel ignore"
+yarn chk:lint
+eslint .
+npx eslint .
+nvim package.json
+git add package.json
+ git commit -m "chore: upgrade frontend to Next 16 and trim deploy pipeline" -m "- RatingStars: add \"use client\" (server-component createContext crash)\
+- tsconfig: adopt Next 16 required jsx react-jsx + dev route types\
+- align @next/eslint-plugin-next / eslint-config-next to 16.3.5\
+- next.config: drop obsolete eslint key and images.domains\
+- prebuild: format + type checks only (no auto-fix on deploy)\
+- prepare: skip husky when .git is absent (Vercel)\
+- replace tamga-deploy.json writer with Telegram-only notify script\
+- ignore generated next-pwa artifacts in prettier/vercel ignore"
+nvim package.json
+lama restart --gpu
+uv run uvicorn main:app --reload --port 8000 --host 0.0.0.0 > main.log
+../frontend
+yarn dev
+yarn dev
+yarn dev
+Q/massage.kg/backend
+uv run manage.py runserver 0.0.0.0:8888
+uv run manage.py runserver 0.0.0.0:8888
+uv run manage.py runserver 0.0.0.0:8888
+uv run manage.py runserver 0.0.0.0:8888
+X/ADLAI
+~/X/ADLAI
+qwen
+qwen
+opencode -c
+..
+opencode -c
+docker system prune -a --filter "until=48h"
+docker system prune -a --filter "until=48h"
+reboot
+opencode
+pwd
+opencode
+../frontend
+yarn
+qwen
+X/ADLAi
+X/ADLAI
+git status
+git push
+rvc get STORY-128
+git status
+git push
+git status
+git status
+git push
+git status
+git log  --onelinE
+git log  --oneline
+git log  --oneline
+git log  --oneline
+rvc issue STORY-128 start
+htop
+X/ADLAI
+qwen -c
+git push
+git status
+git diff
+opencode --help
+opencode --standalone --auto --model=opencode/big-pickle --prompt ""
+opencode --standalone --auto -m=opencode/big-pickle --prompt ""
+opencode --standalone --auto opencode/big-pickle --prompt ""
+opencode --standalone --auto --m=opencode/big-pickle --prompt ""
+opencode --auto opencode/big-pickle --prompt ""
+opencode --auto -s=opencode/big-pickle --prompt ""
+opencode --auto -m=opencode/big-pickle --prompt ""
+opencode run --auto -m=opencode/big-pickle --prompt ""
+opencode run "" --auto -m=opencode/big-pickle
+opencode run --prompt "" --auto -m=opencode/big-pickle
+opencode run "Ping" --auto -m=opencode/big-pickle
+kimi
+agy --dangerously-skip-permissions\
+
+agy --dangerously-skip-permissions\
+
+ps -aux | grep openco
+killall opencode
+killall opencode
+ opencode run You are working in /home/lexx/X/ADLAI. You previously built the operator CLI at backend/ops/cli.py (+ backend/ops/proc.py), exposed as 'adlai' via [project.scripts] in pyproject.toml. Re-read those two files first  � reuse their helpers and conventions exactly.  ADD a new subcommand pair:  - 'adlai up'  � brings the whole product up in dependency order:   1. llama stack first ('adlai stack start' path) and WAIT until all four llama-servers answer their health endpoints (ports per backend/app/core/config.py: reranker 8001, LLM 8002, frontier 8003, embedder 8004  � read the ports from config, do not hardcode)   2. then the app ('adlai app start' path) and WAIT for http://localhost:8000/health to report ready. IMPORTANT: cold-start readiness takes ~4 minutes (known issue STORY-140: lifespan blocks on sequential backend readiness), so the default timeout must be 360s, overridable via --timeout N. Poll every ~3s and show progress, not silence.   3. then admin ('adlai admin start' path) and probe :8501.   Idempotent: anything already healthy is reported as 'already up' and skipped, not restarted (unless --force). End with the same uniform operator table the other commands print: service, pid, log path, health. Exit non-zero if any stage fails its health wait, and say which stage and where its log is. - 'adlai down'  � stops everything in reverse order (app, admin, then stack), reusing the existing stop paths. Exit 0 even if some things were already down.  Constraints: stdlib only, ruff-clean (line-length 100, E/F/I/UP), match the file's existing style (helpers in proc.py, reporting via the existing _paint/table idioms). Do NOT git add/commit. Do NOT touch any vault or docs file. VERIFY: 'uv run adlai up --help', 'uv run adlai down --help', ruff check+format on backend/ops/, and  � since the live stack is already running on this machine  � a real 'uv run adlai up' to prove the idempotent all-healthy path works end to end (it must NOT restart anything). Also run 'uv run adlai down --help' style dry checks only; do NOT actually run 'adlai down' and do NOT stop any running service.  Report: the diff summary, exact verification commands and outcomes, and any edge case you found. --auto -m=opencode/big-pickle\
+'
+ opencode run You are working in /home/lexx/X/ADLAI. You previously built the operator CLI at backend/ops/cli.py (+ backend/ops/proc.py), exposed as 'adlai' via [project.scripts] in pyproject.toml. Re-read those two files first  � reuse their helpers and conventions exactly.  ADD a new subcommand pair:  - 'adlai up'  � brings the whole product up in dependency order:   1. llama stack first ('adlai stack start' path) and WAIT until all four llama-servers answer their health endpoints (ports per backend/app/core/config.py: reranker 8001, LLM 8002, frontier 8003, embedder 8004  � read the ports from config, do not hardcode)   2. then the app ('adlai app start' path) and WAIT for http://localhost:8000/health to report ready. IMPORTANT: cold-start readiness takes ~4 minutes (known issue STORY-140: lifespan blocks on sequential backend readiness), so the default timeout must be 360s, overridable via --timeout N. Poll every ~3s and show progress, not silence.   3. then admin ('adlai admin start' path) and probe :8501.   Idempotent: anything already healthy is reported as 'already up' and skipped, not restarted (unless --force). End with the same uniform operator table the other commands print: service, pid, log path, health. Exit non-zero if any stage fails its health wait, and say which stage and where its log is. - 'adlai down'  � stops everything in reverse order (app, admin, then stack), reusing the existing stop paths. Exit 0 even if some things were already down.  Constraints: stdlib only, ruff-clean (line-length 100, E/F/I/UP), match the file's existing style (helpers in proc.py, reporting via the existing _paint/table idioms). Do NOT git add/commit. Do NOT touch any vault or docs file. VERIFY: 'uv run adlai up --help', 'uv run adlai down --help', ruff check+format on backend/ops/, and  � since the live stack is already running on this machine  � a real 'uv run adlai up' to prove the idempotent all-healthy path works end to end (it must NOT restart anything). Also run 'uv run adlai down --help' style dry checks only; do NOT actually run 'adlai down' and do NOT stop any running service.  Report: the diff summary, exact verification commands and outcomes, and any edge case you found. --auto -m=opencode/big-pickle\
+"\
+"
+ opencode run "You are working in /home/lexx/X/ADLAI. You previously built the operator CLI at backend/ops/cli.py (+ backend/ops/proc.py), exposed as 'adlai' via [project.scripts] in pyproject.toml. Re-read those two files first  � reuse their helpers and conventions exactly.  ADD a new subcommand pair:  - 'adlai up'  � brings the whole product up in dependency order:   1. llama stack first ('adlai stack start' path) and WAIT until all four llama-servers answer their health endpoints (ports per backend/app/core/config.py: reranker 8001, LLM 8002, frontier 8003, embedder 8004  � read the ports from config, do not hardcode)   2. then the app ('adlai app start' path) and WAIT for http://localhost:8000/health to report ready. IMPORTANT: cold-start readiness takes ~4 minutes (known issue STORY-140: lifespan blocks on sequential backend readiness), so the default timeout must be 360s, overridable via --timeout N. Poll every ~3s and show progress, not silence.   3. then admin ('adlai admin start' path) and probe :8501.   Idempotent: anything already healthy is reported as 'already up' and skipped, not restarted (unless --force). End with the same uniform operator table the other commands print: service, pid, log path, health. Exit non-zero if any stage fails its health wait, and say which stage and where its log is. - 'adlai down'  � stops everything in reverse order (app, admin, then stack), reusing the existing stop paths. Exit 0 even if some things were already down.  Constraints: stdlib only, ruff-clean (line-length 100, E/F/I/UP), match the file's existing style (helpers in proc.py, reporting via the existing _paint/table idioms). Do NOT git add/commit. Do NOT touch any vault or docs file. VERIFY: 'uv run adlai up --help', 'uv run adlai down --help', ruff check+format on backend/ops/, and  � since the live stack is already running on this machine  � a real 'uv run adlai up' to prove the idempotent all-healthy path works end to end (it must NOT restart anything). Also run 'uv run adlai down --help' style dry checks only; do NOT actually run 'adlai down' and do NOT stop any running service.  Report: the diff summary, exact verification commands and outcomes, and any edge case you found. --auto -m=opencode/big-pickle\
+\
+"
+ opencode run "You are working in /home/lexx/X/ADLAI. You previously built the operator CLI at backend/ops/cli.py (+ backend/ops/proc.py), exposed as 'adlai' via [project.scripts] in pyproject.toml. Re-read those two files first  � reuse their helpers and conventions exactly.  ADD a new subcommand pair:  - 'adlai up'  � brings the whole product up in dependency order:   1. llama stack first ('adlai stack start' path) and WAIT until all four llama-servers answer their health endpoints (ports per backend/app/core/config.py: reranker 8001, LLM 8002, frontier 8003, embedder 8004  � read the ports from config, do not hardcode)   2. then the app ('adlai app start' path) and WAIT for http://localhost:8000/health to report ready. IMPORTANT: cold-start readiness takes ~4 minutes (known issue STORY-140: lifespan blocks on sequential backend readiness), so the default timeout must be 360s, overridable via --timeout N. Poll every ~3s and show progress, not silence.   3. then admin ('adlai admin start' path) and probe :8501.   Idempotent: anything already healthy is reported as 'already up' and skipped, not restarted (unless --force). End with the same uniform operator table the other commands print: service, pid, log path, health. Exit non-zero if any stage fails its health wait, and say which stage and where its log is. - 'adlai down'  � stops everything in reverse order (app, admin, then stack), reusing the existing stop paths. Exit 0 even if some things were already down.  Constraints: stdlib only, ruff-clean (line-length 100, E/F/I/UP), match the file's existing style (helpers in proc.py, reporting via the existing _paint/table idioms). Do NOT git add/commit. Do NOT touch any vault or docs file. VERIFY: 'uv run adlai up --help', 'uv run adlai down --help', ruff check+format on backend/ops/, and  � since the live stack is already running on this machine  � a real 'uv run adlai up' to prove the idempotent all-healthy path works end to end (it must NOT restart anything). Also run 'uv run adlai down --help' style dry checks only; do NOT actually run 'adlai down' and do NOT stop any running service.  Report: the diff summary, exact verification commands and outcomes, and any edge case you found." --auto -m=opencode/big-pickle\
+\
+
+uv run adlai up
+uv run adlai down
+uv run adlai down
+killall uvicorn
+killall uvicorn
+uv run adlai down
+uv run adlai up
+uv run adlai down
+uv run adlai up
+lama restart --gpu
+uv run adlai up
+git status
+git status
+git status
+git push
+git log  --oneline
+git status
+vim .gitignore
+git status
+git add .
+git commit -m "trigger ci"
+git commit --amend
+git status
+git push
+uv run adlai
+uv run adlai up
+uv run adlai status
+uv run adlai up
+uv run adlai up
+opencode serve
+opencode serve
+~
+ranger
+git status
+X/ADLAI
+git status
+git status
+uv run adlai up
+nvtop
+lama restart --gpu
+htop
+uv run adlai down
+nvim ~/.dotfiles/dot_config/zsh/aliases
+source ~/
+source ~/.zshenv
+adlai 
+Q/llama.cpp
+ls
+cp build buildgood
+cp build buildgood -r
+..
+llama.cpp
+cmake -B build \\
+  -DGGML_HIP=OFF \\
+  -DGGML_VULKAN=OFF \\
+  -DWHISPER_VITISAI=OFF \\
+  -DWHISPER_FFMPEG=ON \\
+  -DCMAKE_BUILD_TYPE=Release
+git pull
+cmake -B build \\
+  -DGGML_HIP=OFF \\
+  -DGGML_VULKAN=OFF \\
+  -DWHISPER_VITISAI=OFF \\
+  -DWHISPER_FFMPEG=ON \\
+  -DCMAKE_BUILD_TYPE=Release
+cmake --build build -j"$(nproc)"\
+
+build/bin/llama-server --version
+build/bin/llama-server --help
+build/bin/llama-server --version
+buildgood/bin/llama-server --version
+buildgood/bin/llama-server --version
+build/bin/llama-server --version
+htop
+X/ADLAI
+adlai
+adlai down
+adlai status
+pkill 1647469
+pkill 1647469
+pkill 1647469
+sudo pkill 1647469
+adlai status
+adlai app 
+adlai admin
+adlai admin stop
+adlai admin start
+adlai admin start --force
+adlai up --force
+tail -f /home/lexx/X/ADLAI/logs/llama-frontier.log
+tail -f /home/lexx/X/ADLAI/logs/llama-frontier.log -n 50
+adlai up --force
+adlai up --force
+tail -f app.log
+ls -lah app.log
+adlai up 
+tail logs/app.log
+tail logs/app.log -f
+ranger
+adlai up
+adlai up --gpu
+adla
+adlai
+adlai stack start --gpu
+qwen
+kimi
+adlai app restart
+adlai app --reload
+adlai app --reload
+git push
+~/.MODELS
+ls
+~/X/ADLAI
+.MODELS
+./MODELS
+ls -lah
+wget https://huggingface.co/tensorblock/ALLaM-7B-Instruct-preview-GGUF/blob/main/ALLaM-7B-Instruct-preview-Q4_K_S.gguf
+aria2c 'https://huggingface.co/tensorblock/ALLaM-7B-Instruct-preview-GGUF/blob/main/ALLaM-7B-Instruct-preview-Q4_K_S.gguf' -c -o Allam-q4_k_s.gguf
+yay -Ss aria2c
+yay -S aria2tui
+yay -Ѓ�с aria2tui
+yay -Rc aria2tui
+yay -S aria2c
+pip install -U "huggingface_hub[cli]"\
+\
+
+uv run pip install -U "huggingface_hub[cli]"\
+\
+
+uv run install -U "huggingface_hub[cli]"\
+\
+
+uv run install "huggingface_hub[cli]"\
+\
+
+uv add "huggingface_hub[cli]"\
+\
+
+uv run huggingface-cli download tensorblock/ALLaM-7B-Instruct-preview-GGUF --include "ALLaM-7B-Instruct-preview-Q2_K.gguf" --local-dir MY_LOCAL_DIR\
+\
+
+hf download ALLaM-7B-Instruct-preview-Q4_K_S.gguf
+uv run hf download ALLaM-7B-Instruct-preview-Q4_K_S.gguf
+uv run hf download tensorblock/ALLaM-7B-Instruct-preview-Q4_K_S.gguf
+uv run hf download tensorblock/ALLaM-7B-Instruct-preview-Q4_K_S.GGUF
+uv run hf download tensorblock/ALLaM-7B-Instruct-preview
+uv run hf download tensorblock/ALLaM-7B-Instruct-preview.GGUF

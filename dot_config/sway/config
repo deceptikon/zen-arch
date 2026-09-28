@@ -12,7 +12,7 @@ set $swayr env RUST_BACKTRACE=1 swayr
 set $setlang swaymsg input type:keyboard xkb_switch_layout 0
 set $menu $setlang && rofi -show drun -modi drun,filebrowser,run,window
 
-font pango:TerminessTTF Nerd Font Mono 12
+font pango:TerminessTTF Nerd Font Mono 14
 
 # Load modules
 include ./conf.d/*

@@ -2,7 +2,7 @@
 
 # Магия для sudo: пробел в конце заставляет sudo понимать твои алиасы
 alias sudo='sudo '
-
+alias adlai='uv run adlai '
 # Система и пакеты
 alias yy="yay"
 alias ss="systemctl"
@@ -12,7 +12,7 @@ alias sss="systemctl status"
 alias m="micro"
 ##alias cat="bat --style=plain"
 
-alias lama="~/Q/ADLAI/scripts/run_inference.sh"
+alias lama="~/X/ADLAI/scripts/run_inference.sh"
 alias vps="ssh root@adlai.local "
 
 # Скрипты
